@@ -82,21 +82,21 @@ $( function() {
   	
   	// clock timer
 
-  	if ($('#clock').length) {
+  	if ($('.wrapper_rus').length) {
 
 	    $('#clock').countdown('2018/10/01', function(event) {
 	       var $this = $(this).html(event.strftime(''
-           + '<span class="day_clock clock_block">%D<b>days</b></span>'
-           + '<span class="hour_clock clock_block">%H<b>hours</b></span>'
-           + '<span class="min_clock clock_block">%M<b>min</b></span>'
-           + '<span class="sec_clock clock_block">%S<b>sec</b></span>'));
+           + '<span class="day_clock clock_block">%D<b>дня</b></span>'
+           + '<span class="hour_clock clock_block">%H<b>час</b></span>'
+           + '<span class="min_clock clock_block">%M<b>мин</b></span>'
+           + '<span class="sec_clock clock_block">%S<b>сек</b></span>'));
 	     });
 
 	  }
 
-    if ($('#clock2').length) {
+    if ($('.wrapper_eng').length) {
 
-      $('#clock2').countdown('2018/10/01', function(event) {
+      $('#clock').countdown('2018/10/01', function(event) {
          var $this = $(this).html(event.strftime(''
            + '<span class="day_clock clock_block">%D<b>days</b></span>'
            + '<span class="hour_clock clock_block">%H<b>hours</b></span>'

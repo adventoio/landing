@@ -28,9 +28,9 @@ $( function() {
 
   $( "#slider-range" ).slider({
       range: "max",
-      min: 1,
-      max: 100000000,
-      value: 25000000,
+      min: 0,
+      max: 30000000,
+      value: 0,
       slide: function( event, ui ) {
         $( ".vertical_line__span" ).val( ('$') + ui.value );
       }

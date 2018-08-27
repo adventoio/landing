@@ -50,6 +50,11 @@
 #clock span {
   color: #fff;
 }
+
+.buy_btn {
+	min-width: 130px;
+}
+
 .ico_platform__wrapper {
   float: left;
   width: 100%;
@@ -434,6 +439,7 @@ main {
   cursor: pointer;
   border-radius: 40px;
   transition: .3s;
+  text-align: center;
 }
 .ico_platform__wrapper--right form button:hover {
   -webkit-box-shadow: 0px 0px 37px 0px #0aefdf;
@@ -807,7 +813,9 @@ main {
   line-height: 39px;
   float: left;
   width: 100%;
-  text-align: center;
+  /*text-align: center;*/
+  text-align: left;
+  padding-left:23px;
 }
 .gorizontal_graphic ul li span {
   float: left;

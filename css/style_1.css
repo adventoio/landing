@@ -2796,6 +2796,30 @@ footer {
   display: flex;
   justify-content: flex-start;
 }
+.soc_icons__wrap--mod svg {
+  min-width: 16px;
+}
+.our_consultant__block_second_soc {
+  transform: translateX(-170%);
+}
+.menu--overlay {
+  position: fixed;
+  width: 100%;
+  float: left;
+  height: 100%;
+  background-color: #191F2F;
+  opacity: 0.45;
+  visibility: hidden;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 50;
+  transition: .3s;
+}
+.menu--overlay--active {
+  opacity: 0.90;
+  visibility: visible;
+}
 @media (max-width: 1800px) {
   .advento_title__wrapper span {
     font-size: 378px;
@@ -3356,27 +3380,9 @@ footer {
     top: 42px;
     transition: .3s;
   }
-  .menu--overlay {
-    position: fixed;
-    width: 100%;
-    float: left;
-    height: 100%;
-    background-color: #191F2F;
-    opacity: 0.45;
-    visibility: hidden;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    z-index: 50;
-    transition: .3s;
-  }
   .h__lang--active {
     opacity: 0;
     visibility: hidden;
-  }
-  .menu--overlay--active {
-    opacity: 0.90;
-    visibility: visible;
   }
   .ico_platform__wrapper .soc_icons__wrap ul li a {
     padding-left: 5px;
@@ -3658,6 +3664,9 @@ footer {
   }
   .about_platform__img {
     padding-left: 0px;
+  }
+  .soc_icons__wrap--mod ul li:not(:first-child) {
+    margin-left: 30px;
   }
 }
 @media (max-width: 768px) {

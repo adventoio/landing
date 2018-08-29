@@ -1,4 +1,49 @@
+
 $(document).ready(function(){
+
+  $("#form1").submit(function() { //устанавливаем событие отправки для формы с id=form
+        var form_data = $(this).serialize(); //собераем все данные из формы
+        $.ajax({
+        type: "POST", //Метод отправки
+        url: "send.php", //путь до php фаила отправителя
+        data: form_data,
+        success: function() {
+               //код в этом блоке выполняется при успешной отправке сообщения
+              $('.menu--overlay').addClass('menu--overlay--active');
+              $('.modal_cont').addClass('modal_cont--active');
+              $('body').addClass('body--active');
+             },
+            error: function(){
+              alert('error!');
+            }
+        });
+    });
+
+
+  // fancybox
+
+  /*$('.modal_link').fancybox();*/
+
+  // visible telegramm button
+
+  $('.modal_cont__close').on('click', function () {
+    $('.modal_cont').removeClass('modal_cont--active');
+    $('.menu--overlay').removeClass('menu--overlay--active');
+     $('body').removeClass('body--active');
+  });
+
+  function telBtn(){
+    $('.telegram_abs__wrap').addClass('telegram_abs__wrap--vis');
+  }
+
+  function telText(){
+    $('.telegram_abs__wrap a span').addClass('span_vis');
+  }
+
+  setTimeout(telText, 35000);
+
+
+  setTimeout(telBtn, 20000);
 
   if($(window).width() > 991){
     $(".h__nav li a").on("click", function (event) {

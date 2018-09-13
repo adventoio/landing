@@ -1,17 +1,14 @@
 <?php
 
-if(isset($_POST['email']))
-{
-	$email = $_POST['email'];
-	if(strlen($email)>6)
-	{
-		$fp = fopen("mails.txt", "a");
-		fwrite($fp, $email);
-		fwrite($fp, "\n");
-		fclose($fp); 
-	}
+if (isset($_POST['email'])) {
+    $email = $_POST['email'];
+    if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        file_put_contents("mails.txt", $email . PHP_EOL, FILE_APPEND);
+    }
 }
 
-header('Location: /');
+if ($_SERVER['HTTP_X_REQUESTED_WITH'] == 'XMLHttpRequest') {
 
-?>
+} else {
+    header('Location: /#confirmation');
+}

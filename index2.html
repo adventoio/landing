@@ -143,8 +143,8 @@
 						<div class="ico_platform__wrapper--right">
 							<span class="title wow fadeIn" data-wow-duration="0.75s" data-wow-delay="s">Innovative<br>Advertising<br>Platform</span>
 							<p class="wow fadeIn" data-wow-duration="0.75s" data-wow-delay="0.2s">Advento consolidates all the advantages of online marketing software technologies, neural networks and smart-contracts within one and the same platform. Thanks to two chains of Blockchain, we make transparent not only the financial operations, but we also fix each click and even aт impression of the ad in the distributed ledge!</p>
-							<form action="mail.php" id="subscription" method="post">
-								<input type="email" placeholder="Enter your e-mail" name="email">
+							<form action="mail.php" class="subscription-form" method="post">
+								<input type="email" placeholder="Enter your e-mail" name="email" required>
 								<button type="submit" class="modal_link">Subscribe</button>
 							</form>
 						</div>
@@ -1811,10 +1811,12 @@
 					<div class="container">
 						<div class="sub__wrap">
 							<span class="main_title wow fadeIn" data-wow-duration="0.75s" data-wow-delay="0.1s">Subscribe to our mailing list to keep up with the news of the project.</span>
-							<div class="sub__form wow fadeIn" data-wow-duration="0.75s" data-wow-delay="0.25s">
-								<input type="text" placeholder="Enter your e-mail">
-								<button type="submit">To subscribe</button>
-							</div>
+							<form action="mail.php" method="post" class="subscription-form">
+								<div class="sub__form wow fadeIn" data-wow-duration="0.75s" data-wow-delay="0.25s">
+									<input type="email" placeholder="Enter your e-mail" name="email" required>
+									<button type="submit" class="modal_link">To subscribe</button>
+								</div>
+							</form>
 						</div>
 					</div>
 				</div>

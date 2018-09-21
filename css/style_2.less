@@ -1890,6 +1890,33 @@ main{
 			z-index: 1;
 		}
 	}
+	figure{
+		figcaption {
+			position: absolute;
+			z-index: 1;
+			background: rgba(0, 0, 0,0.8);
+			color:white;
+			border: 2px dashed #0aefdf;
+			width: 365px;
+			bottom: 120px;
+			left: -62px;
+			opacity: 0;
+			padding: 26px 20px;
+			transition: opacity 0.3s,bottom 0.3s;
+			font-family: RR;
+			font-size: 14px;
+		}
+	}
+	li:hover {
+		div {
+			figure {
+				figcaption {
+					opacity: 1;
+					bottom: 220px;
+				}
+			}
+		}
+	}
 }
 
 .our_consultant{
@@ -3780,7 +3807,6 @@ box-shadow: 0px 0px 0px 0px #0aefdf;
 		}
 	}
 }
-
 
 
 

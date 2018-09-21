@@ -50,11 +50,6 @@
 #clock span {
   color: #fff;
 }
-
-.buy_btn {
-	min-width: 130px;
-}
-
 .ico_platform__wrapper {
   float: left;
   width: 100%;
@@ -87,7 +82,7 @@
 .ico_platform__wrapper .soc_icons__wrap ul li a {
   float: left;
   text-decoration: none;
-  transition: .3s;
+  transition: 0.3s;
   padding: 15px 20px;
 }
 .ico_platform__wrapper .soc_icons__wrap ul li a svg {
@@ -98,7 +93,7 @@
 }
 .ico_platform__wrapper .soc_icons__wrap ul li a svg path {
   fill: #fff;
-  transition: .3s;
+  transition: 0.3s;
 }
 .ico_platform__wrapper .container_bg {
   position: relative;
@@ -132,10 +127,10 @@
   padding-top: 240px;
 }
 .soc_icons__wrap ul li a svg path {
-  transition: .3s;
+  transition: 0.3s;
 }
 .soc_icons__wrap ul li a:hover svg path {
-  fill: #0aefdf!important;
+  fill: #0aefdf !important;
 }
 .soc_icons__wrap--mod {
   width: auto;
@@ -162,7 +157,7 @@
 }
 .soc_icons__wrap--mod ul li a svg path {
   fill: #fff;
-  transition: .3s;
+  transition: 0.3s;
 }
 .soc_icons__wrap--mod ul li a:hover svg path {
   fill: #0AEFDF;
@@ -192,7 +187,7 @@
   border-radius: 40px;
   cursor: pointer;
   margin-top: 90px;
-  transition: .3s;
+  transition: 0.3s;
 }
 .ico_platform__wrapper--left .buy_btn:hover {
   -webkit-box-shadow: 0px 0px 37px 0px #e4360c;
@@ -438,7 +433,7 @@ main {
   border: none;
   cursor: pointer;
   border-radius: 40px;
-  transition: .3s;
+  transition: 0.3s;
   text-decoration: none;
 }
 .ico_platform__wrapper--right form button:hover {
@@ -508,7 +503,7 @@ main {
   font-weight: 400;
   text-decoration: none;
   margin-top: 29px;
-  transition: .3s;
+  transition: 0.3s;
 }
 .contain_market__wrapper--top div a:hover {
   text-decoration: underline;
@@ -584,7 +579,7 @@ main {
   background-image: -webkit-linear-gradient(left, #29eee7 0%, #4f87e6 100%);
   background-image: -o-linear-gradient(left, #29eee7 0%, #4f87e6 100%);
   background-image: linear-gradient(to right, #29eee7 0%, #4f87e6 100%);
-  transition: .3s;
+  transition: 0.3s;
 }
 @-webkit-keyframes vert_graph__animation1 {
   0% {
@@ -620,7 +615,7 @@ main {
 }
 .vertical_graphics__active .vertical_graphics1 div {
   animation: vert_graph__animation1 2s ease-in-out;
-  animation-delay: .5s;
+  animation-delay: 0.5s;
   backface-visibility: hidden;
   animation-fill-mode: forwards;
 }
@@ -629,7 +624,7 @@ main {
 }
 .vertical_graphics__active .vertical_graphics2 div {
   animation: vert_graph__animation2 2s ease-in-out;
-  animation-delay: .5s;
+  animation-delay: 0.5s;
   backface-visibility: hidden;
   animation-fill-mode: forwards;
 }
@@ -638,7 +633,7 @@ main {
 }
 .vertical_graphics__active .vertical_graphics3 div {
   animation: vert_graph__animation3 2s ease-in-out;
-  animation-delay: .5s;
+  animation-delay: 0.5s;
   backface-visibility: hidden;
   animation-fill-mode: forwards;
 }
@@ -647,7 +642,7 @@ main {
 }
 .vertical_graphics__active .vertical_graphics4 div {
   animation: vert_graph__animation4 2s ease-in-out;
-  animation-delay: .5s;
+  animation-delay: 0.5s;
   backface-visibility: hidden;
   animation-fill-mode: forwards;
 }
@@ -718,7 +713,7 @@ main {
   font-weight: 400;
   text-decoration: none;
   margin-top: 18px;
-  transition: .3s;
+  transition: 0.3s;
 }
 .vertical_graphics--bottom a:hover {
   text-decoration: underline;
@@ -764,7 +759,7 @@ main {
   font-weight: 400;
   text-decoration: none;
   margin-top: 20px;
-  transition: .3s;
+  transition: 0.3s;
 }
 .money_cont a:hover {
   text-decoration: underline;
@@ -813,9 +808,7 @@ main {
   line-height: 39px;
   float: left;
   width: 100%;
-  /*text-align: center;*/
-  text-align: left;
-  padding-left:23px;
+  text-align: center;
 }
 .gorizontal_graphic ul li span {
   float: left;
@@ -840,7 +833,7 @@ main {
   background-image: -webkit-linear-gradient(left, #29eee7 0%, #4f87e6 100%);
   background-image: -o-linear-gradient(left, #29eee7 0%, #4f87e6 100%);
   background-image: linear-gradient(to right, #29eee7 0%, #4f87e6 100%);
-  transition: .3s;
+  transition: 0.3s;
 }
 .gorizontal_graphic ul .gorizontal_graphic__cont1 div {
   max-width: 55px;
@@ -872,14 +865,14 @@ main {
   font-size: 15px;
   font-weight: 400;
   text-decoration: none;
-  transition: .3s;
+  transition: 0.3s;
 }
 .gorizontal_graphic a:hover {
   text-decoration: underline;
 }
 .animate_class__graph .gorizontal_graphic__cont div {
   animation: goz_graph__animation 2s ease-in-out;
-  animation-delay: .5s;
+  animation-delay: 0.5s;
   backface-visibility: hidden;
   animation-fill-mode: forwards;
 }
@@ -985,7 +978,7 @@ main {
   top: 66px;
   left: 0px;
   animation: roze1 4s ease-in-out infinite;
-  animation-delay: .1s;
+  animation-delay: 0.1s;
 }
 .security_content--right .big_circles__cont .roses_cont .roze_blue {
   position: absolute;
@@ -1061,7 +1054,7 @@ main {
 }
 .security_content--right .circle_big .circle_div1 .star_inside {
   animation: circle1 2s ease-in-out infinite;
-  animation-delay: .1s;
+  animation-delay: 0.1s;
 }
 .security_content--right .circle_big .circle_div2 {
   top: -2px;
@@ -1654,7 +1647,7 @@ main {
   text-decoration: none;
   border-radius: 40px;
   z-index: 5;
-  transition: .3s;
+  transition: 0.3s;
 }
 .token_sell__ul .token_sell__li_big a:hover {
   -webkit-box-shadow: 0px 0px 37px 0px #e4360c;
@@ -1750,6 +1743,25 @@ main {
   bottom: 0;
   height: 100%;
   z-index: 1;
+}
+.our_comand figure figcaption {
+  position: absolute;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  border: 2px dashed #0aefdf;
+  width: 365px;
+  bottom: 120px;
+  left: -62px;
+  opacity: 0;
+  padding: 26px 20px;
+  transition: opacity 0.3s, bottom 0.3s;
+  font-family: RR;
+  font-size: 14px;
+}
+.our_comand li:hover div figure figcaption {
+  opacity: 1;
+  bottom: 220px;
 }
 .our_consultant {
   float: left;
@@ -2049,7 +2061,7 @@ main {
 }
 .advento_uses__v_images .v_img1.v_img_anim {
   animation: v_image1 4s ease-in-out infinite;
-  animation-delay: .1s;
+  animation-delay: 0.1s;
 }
 .advento_uses__v_images .v_img2 {
   right: 400px;
@@ -2057,7 +2069,7 @@ main {
 }
 .advento_uses__v_images .v_img2.v_img_anim {
   animation: v_image2 4s ease-in-out infinite;
-  animation-delay: .1s;
+  animation-delay: 0.1s;
 }
 .advento_uses__v_images .v_img3 {
   right: 134px;
@@ -2065,7 +2077,7 @@ main {
 }
 .advento_uses__v_images .v_img3.v_img_anim {
   animation: v_image3 4s ease-in-out infinite;
-  animation-delay: .1s;
+  animation-delay: 0.1s;
 }
 .advento_uses__v_images .v_img4 {
   left: 273px;
@@ -2073,7 +2085,7 @@ main {
 }
 .advento_uses__v_images .v_img4.v_img_anim {
   animation: v_image4 4s ease-in-out infinite;
-  animation-delay: .1s;
+  animation-delay: 0.1s;
 }
 .advento_uses__v_images .v_img5 {
   right: 500px;
@@ -2081,7 +2093,7 @@ main {
 }
 .advento_uses__v_images .v_img5.v_img_anim {
   animation: v_image5 4s ease-in-out infinite;
-  animation-delay: .1s;
+  animation-delay: 0.1s;
 }
 @-webkit-keyframes roze1 {
   0% {
@@ -2569,7 +2581,7 @@ main {
   display: block;
 }
 .advento_uses__links img {
-  transition: .3s;
+  transition: 0.3s;
 }
 .advento_uses__links .toggle_link__active img {
   transform: rotate(180deg);
@@ -2583,7 +2595,7 @@ main {
   right: 130px;
   z-index: 10;
   opacity: 0;
-  transition: .8s;
+  transition: 0.8s;
 }
 .telegram_abs__wrap a {
   float: left;
@@ -2605,7 +2617,7 @@ main {
   text-align: center;
   line-height: 16px;
   opacity: 0;
-  transition: .8s;
+  transition: 0.8s;
 }
 .telegram_abs__wrap a .span_vis {
   opacity: 1;
@@ -2625,7 +2637,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: .3s;
+  transition: 0.3s;
 }
 .telegram_abs__wrap--vis {
   opacity: 1;
@@ -2665,7 +2677,7 @@ main {
   top: 0;
   right: 0;
   transform: translate(50%, -50%);
-  transition: .3s;
+  transition: 0.3s;
   border-radius: 100%;
   cursor: pointer;
 }
@@ -3681,7 +3693,7 @@ header {
   font-size: 14px;
   font-weight: 400;
   text-decoration: none;
-  transition: .3s;
+  transition: 0.3s;
 }
 .h__nav li a:hover {
   color: #0AEFDF;
@@ -3743,10 +3755,10 @@ main {
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
-  background-color: #FFF!important;
+  background-color: #FFF !important;
 }
 .selectric-items li:hover {
-  background-color: #0D1427!important;
+  background-color: #0D1427 !important;
   color: #fff;
 }
 .advento_title__wrapper {
@@ -3898,7 +3910,7 @@ main {
   background-color: #e4360c;
   border-radius: 40px;
   text-decoration: none;
-  transition: .3s;
+  transition: 0.3s;
 }
 .about_platform_info__video {
   width: 100%;
@@ -4138,7 +4150,7 @@ main {
   border-radius: 100%;
 }
 .about_platform_info__links > a {
-  transition: .3s;
+  transition: 0.3s;
 }
 .about_platform_info__links > a:hover {
   -webkit-box-shadow: 0px 0px 37px 0px #e4360c;
@@ -4146,7 +4158,7 @@ main {
   box-shadow: 0px 0px 37px 0px #e4360c;
 }
 .about_platform_info__video img {
-  transition: .3s;
+  transition: 0.3s;
   border-radius: 100%;
 }
 .about_platform_info__video a:hover img {
@@ -4381,7 +4393,7 @@ main {
   background-color: #e4360c;
   border-radius: 40px;
   text-decoration: none;
-  transition: .3s;
+  transition: 0.3s;
   -webkit-box-shadow: 0px 0px 37px 0px rgba(228, 54, 12, 0);
   -moz-box-shadow: 0px 0px 37px 0px rgba(228, 54, 12, 0);
   box-shadow: 0px 0px 37px 0px rgba(228, 54, 12, 0);
@@ -5552,7 +5564,7 @@ main {
   font-size: 18px;
   font-weight: 400;
   position: relative;
-  transition: .3s;
+  transition: 0.3s;
   text-decoration: none;
 }
 .faq_wrap__tabs_link li a:hover {
@@ -5561,7 +5573,7 @@ main {
 .faq_wrap__tabs_link li a:after {
   width: 100%;
   float: left;
-  transition: .3s;
+  transition: 0.3s;
   left: 0;
   bottom: -12px;
   height: 3px;
@@ -5593,7 +5605,7 @@ main {
   position: relative;
   visibility: visible;
   opacity: 1;
-  transition: .5s;
+  transition: 0.5s;
 }
 .faq_tabs__list {
   width: 100%;
@@ -5628,7 +5640,7 @@ main {
   height: auto;
   max-width: 19px;
   margin-right: 10px;
-  transition: .3s;
+  transition: 0.3s;
 }
 .faq_tabs__list--active img {
   transform: rotate(180deg);
@@ -5693,29 +5705,29 @@ main {
   font-weight: 400;
   background: none;
   border: none;
-  border-bottom: 3px solid  #0aefdf;
+  border-bottom: 3px solid #0aefdf;
   height: 45px;
-  transition: .3s;
+  transition: 0.3s;
 }
 .sub__form input::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: #fff;
-  transition: .3s;
+  transition: 0.3s;
 }
 .sub__form input::-moz-placeholder {
   /* Firefox 19+ */
   color: #fff;
-  transition: .3s;
+  transition: 0.3s;
 }
 .sub__form input:-ms-input-placeholder {
   /* IE 10+ */
   color: #fff;
-  transition: .3s;
+  transition: 0.3s;
 }
 .sub__form input:-moz-placeholder {
   /* Firefox 18- */
   color: #fff;
-  transition: .3s;
+  transition: 0.3s;
 }
 .sub__form input:focus::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
@@ -5751,7 +5763,7 @@ main {
   border: none;
   cursor: pointer;
   border-radius: 40px;
-  transition: .3s;
+  transition: 0.3s;
 }
 .sub__form button:hover {
   -webkit-box-shadow: 0px 0px 37px 0px #0aefdf;
@@ -5807,7 +5819,7 @@ main {
   height: auto;
   position: relative;
   transform: translateY(0);
-  transition: .3s;
+  transition: 0.3s;
   position: absolute;
   left: 0;
 }
@@ -5818,7 +5830,7 @@ main {
   padding-top: 60px;
   height: auto;
   position: relative;
-  transition: .3s;
+  transition: 0.3s;
   transform: translateY(0);
   position: absolute;
   right: 0;
@@ -5859,7 +5871,7 @@ main {
   content: "";
   top: 50%;
   transform: translateY(-50%);
-  transition: .3s;
+  transition: 0.3s;
 }
 .roadmap_info__step p {
   width: 100%;
@@ -6212,7 +6224,7 @@ footer {
   font-size: 18px;
   font-weight: 400;
   text-decoration: none;
-  transition: .3s;
+  transition: 0.3s;
 }
 .footer_nav li a:hover {
   color: #0AEFDF;
@@ -6231,7 +6243,7 @@ footer {
   overflow: hidden;
 }
 .meetings_wrap ul li a .photo_div .photo_text {
-  transition: .3s;
+  transition: 0.3s;
 }
 .meetings_wrap ul li a .photo_div .photo_text {
   transform: translateY(100%);
@@ -6240,7 +6252,7 @@ footer {
   transform: translateY(0%);
 }
 .our_consultant__block ul li div a {
-  transition: .3s;
+  transition: 0.3s;
   border-radius: 100%;
   width: 20px;
   height: 20px;
@@ -6255,7 +6267,7 @@ footer {
   box-shadow: 0px 0px 37px 0px #0aefdf;
 }
 .our_comand--top ul li div a {
-  transition: .3s;
+  transition: 0.3s;
   border-radius: 100%;
   width: 20px;
   height: 20px;
@@ -6356,7 +6368,7 @@ footer {
   float: left;
 }
 .our_comand--bottom ul li div a {
-  transition: .3s;
+  transition: 0.3s;
   border-radius: 100%;
   width: 20px;
   height: 20px;
@@ -6398,10 +6410,10 @@ footer {
   left: 0;
   opacity: 0;
   z-index: 50;
-  transition: .3s;
+  transition: 0.3s;
 }
 .menu--overlay--active {
-  opacity: 0.90;
+  opacity: 0.9;
   visibility: visible;
 }
 @media (max-width: 1800px) {
@@ -6895,7 +6907,7 @@ footer {
     -moz-box-shadow: -10px 0px 37px 0px #0aefdf;
     box-shadow: -10px 0px 37px 0px #0aefdf;
     transform: translateX(-120%);
-    transition: .4s;
+    transition: 0.4s;
   }
   .h__wrap .h__logo {
     position: absolute;
@@ -6962,7 +6974,7 @@ footer {
   .h__lang {
     right: 30px;
     top: 42px;
-    transition: .3s;
+    transition: 0.3s;
   }
   .h__lang--active {
     opacity: 0;

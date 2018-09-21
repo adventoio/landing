@@ -82,7 +82,7 @@
 .ico_platform__wrapper .soc_icons__wrap ul li a {
   float: left;
   text-decoration: none;
-  transition: .3s;
+  transition: 0.3s;
   padding: 15px 20px;
 }
 .ico_platform__wrapper .soc_icons__wrap ul li a svg {
@@ -93,7 +93,7 @@
 }
 .ico_platform__wrapper .soc_icons__wrap ul li a svg path {
   fill: #fff;
-  transition: .3s;
+  transition: 0.3s;
 }
 .ico_platform__wrapper .container_bg {
   position: relative;
@@ -127,10 +127,10 @@
   padding-top: 240px;
 }
 .soc_icons__wrap ul li a svg path {
-  transition: .3s;
+  transition: 0.3s;
 }
 .soc_icons__wrap ul li a:hover svg path {
-  fill: #0aefdf!important;
+  fill: #0aefdf !important;
 }
 .soc_icons__wrap--mod {
   width: auto;
@@ -157,7 +157,7 @@
 }
 .soc_icons__wrap--mod ul li a svg path {
   fill: #fff;
-  transition: .3s;
+  transition: 0.3s;
 }
 .soc_icons__wrap--mod ul li a:hover svg path {
   fill: #0AEFDF;
@@ -187,7 +187,7 @@
   border-radius: 40px;
   cursor: pointer;
   margin-top: 90px;
-  transition: .3s;
+  transition: 0.3s;
 }
 .ico_platform__wrapper--left .buy_btn:hover {
   -webkit-box-shadow: 0px 0px 37px 0px #e4360c;
@@ -433,7 +433,7 @@ main {
   border: none;
   cursor: pointer;
   border-radius: 40px;
-  transition: .3s;
+  transition: 0.3s;
   text-decoration: none;
 }
 .ico_platform__wrapper--right form button:hover {
@@ -503,7 +503,7 @@ main {
   font-weight: 400;
   text-decoration: none;
   margin-top: 29px;
-  transition: .3s;
+  transition: 0.3s;
 }
 .contain_market__wrapper--top div a:hover {
   text-decoration: underline;
@@ -579,7 +579,7 @@ main {
   background-image: -webkit-linear-gradient(left, #29eee7 0%, #4f87e6 100%);
   background-image: -o-linear-gradient(left, #29eee7 0%, #4f87e6 100%);
   background-image: linear-gradient(to right, #29eee7 0%, #4f87e6 100%);
-  transition: .3s;
+  transition: 0.3s;
 }
 @-webkit-keyframes vert_graph__animation1 {
   0% {
@@ -615,7 +615,7 @@ main {
 }
 .vertical_graphics__active .vertical_graphics1 div {
   animation: vert_graph__animation1 2s ease-in-out;
-  animation-delay: .5s;
+  animation-delay: 0.5s;
   backface-visibility: hidden;
   animation-fill-mode: forwards;
 }
@@ -624,7 +624,7 @@ main {
 }
 .vertical_graphics__active .vertical_graphics2 div {
   animation: vert_graph__animation2 2s ease-in-out;
-  animation-delay: .5s;
+  animation-delay: 0.5s;
   backface-visibility: hidden;
   animation-fill-mode: forwards;
 }
@@ -633,7 +633,7 @@ main {
 }
 .vertical_graphics__active .vertical_graphics3 div {
   animation: vert_graph__animation3 2s ease-in-out;
-  animation-delay: .5s;
+  animation-delay: 0.5s;
   backface-visibility: hidden;
   animation-fill-mode: forwards;
 }
@@ -642,7 +642,7 @@ main {
 }
 .vertical_graphics__active .vertical_graphics4 div {
   animation: vert_graph__animation4 2s ease-in-out;
-  animation-delay: .5s;
+  animation-delay: 0.5s;
   backface-visibility: hidden;
   animation-fill-mode: forwards;
 }
@@ -713,7 +713,7 @@ main {
   font-weight: 400;
   text-decoration: none;
   margin-top: 18px;
-  transition: .3s;
+  transition: 0.3s;
 }
 .vertical_graphics--bottom a:hover {
   text-decoration: underline;
@@ -759,7 +759,7 @@ main {
   font-weight: 400;
   text-decoration: none;
   margin-top: 20px;
-  transition: .3s;
+  transition: 0.3s;
 }
 .money_cont a:hover {
   text-decoration: underline;
@@ -833,7 +833,7 @@ main {
   background-image: -webkit-linear-gradient(left, #29eee7 0%, #4f87e6 100%);
   background-image: -o-linear-gradient(left, #29eee7 0%, #4f87e6 100%);
   background-image: linear-gradient(to right, #29eee7 0%, #4f87e6 100%);
-  transition: .3s;
+  transition: 0.3s;
 }
 .gorizontal_graphic ul .gorizontal_graphic__cont1 div {
   max-width: 55px;
@@ -865,14 +865,14 @@ main {
   font-size: 15px;
   font-weight: 400;
   text-decoration: none;
-  transition: .3s;
+  transition: 0.3s;
 }
 .gorizontal_graphic a:hover {
   text-decoration: underline;
 }
 .animate_class__graph .gorizontal_graphic__cont div {
   animation: goz_graph__animation 2s ease-in-out;
-  animation-delay: .5s;
+  animation-delay: 0.5s;
   backface-visibility: hidden;
   animation-fill-mode: forwards;
 }
@@ -978,7 +978,7 @@ main {
   top: 66px;
   left: 0px;
   animation: roze1 4s ease-in-out infinite;
-  animation-delay: .1s;
+  animation-delay: 0.1s;
 }
 .security_content--right .big_circles__cont .roses_cont .roze_blue {
   position: absolute;
@@ -1054,7 +1054,7 @@ main {
 }
 .security_content--right .circle_big .circle_div1 .star_inside {
   animation: circle1 2s ease-in-out infinite;
-  animation-delay: .1s;
+  animation-delay: 0.1s;
 }
 .security_content--right .circle_big .circle_div2 {
   top: -2px;
@@ -1647,7 +1647,7 @@ main {
   text-decoration: none;
   border-radius: 40px;
   z-index: 5;
-  transition: .3s;
+  transition: 0.3s;
 }
 .token_sell__ul .token_sell__li_big a:hover {
   -webkit-box-shadow: 0px 0px 37px 0px #e4360c;
@@ -1743,6 +1743,25 @@ main {
   bottom: 0;
   height: 100%;
   z-index: 1;
+}
+.our_comand figure figcaption {
+  position: absolute;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  border: 2px dashed #0aefdf;
+  width: 365px;
+  bottom: 120px;
+  left: -62px;
+  opacity: 0;
+  padding: 26px 20px;
+  transition: opacity 0.3s, bottom 0.3s;
+  font-family: RR;
+  font-size: 14px;
+}
+.our_comand li:hover div figure figcaption {
+  opacity: 1;
+  bottom: 220px;
 }
 .our_consultant {
   float: left;
@@ -2042,7 +2061,7 @@ main {
 }
 .advento_uses__v_images .v_img1.v_img_anim {
   animation: v_image1 4s ease-in-out infinite;
-  animation-delay: .1s;
+  animation-delay: 0.1s;
 }
 .advento_uses__v_images .v_img2 {
   right: 400px;
@@ -2050,7 +2069,7 @@ main {
 }
 .advento_uses__v_images .v_img2.v_img_anim {
   animation: v_image2 4s ease-in-out infinite;
-  animation-delay: .1s;
+  animation-delay: 0.1s;
 }
 .advento_uses__v_images .v_img3 {
   right: 134px;
@@ -2058,7 +2077,7 @@ main {
 }
 .advento_uses__v_images .v_img3.v_img_anim {
   animation: v_image3 4s ease-in-out infinite;
-  animation-delay: .1s;
+  animation-delay: 0.1s;
 }
 .advento_uses__v_images .v_img4 {
   left: 273px;
@@ -2066,7 +2085,7 @@ main {
 }
 .advento_uses__v_images .v_img4.v_img_anim {
   animation: v_image4 4s ease-in-out infinite;
-  animation-delay: .1s;
+  animation-delay: 0.1s;
 }
 .advento_uses__v_images .v_img5 {
   right: 500px;
@@ -2074,7 +2093,7 @@ main {
 }
 .advento_uses__v_images .v_img5.v_img_anim {
   animation: v_image5 4s ease-in-out infinite;
-  animation-delay: .1s;
+  animation-delay: 0.1s;
 }
 @-webkit-keyframes roze1 {
   0% {
@@ -2562,7 +2581,7 @@ main {
   display: block;
 }
 .advento_uses__links img {
-  transition: .3s;
+  transition: 0.3s;
 }
 .advento_uses__links .toggle_link__active img {
   transform: rotate(180deg);
@@ -2576,7 +2595,7 @@ main {
   right: 130px;
   z-index: 10;
   opacity: 0;
-  transition: .8s;
+  transition: 0.8s;
 }
 .telegram_abs__wrap a {
   float: left;
@@ -2598,7 +2617,7 @@ main {
   text-align: center;
   line-height: 16px;
   opacity: 0;
-  transition: .8s;
+  transition: 0.8s;
 }
 .telegram_abs__wrap a .span_vis {
   opacity: 1;
@@ -2618,7 +2637,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: .3s;
+  transition: 0.3s;
 }
 .telegram_abs__wrap--vis {
   opacity: 1;
@@ -2629,7 +2648,7 @@ main {
   max-width: 440px;
   margin: 0 !important;
   padding: 20px !important;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
@@ -2658,7 +2677,7 @@ main {
   top: 0;
   right: 0;
   transform: translate(50%, -50%);
-  transition: .3s;
+  transition: 0.3s;
   border-radius: 100%;
   cursor: pointer;
 }

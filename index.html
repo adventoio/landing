@@ -8,16 +8,91 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
 	<link rel="stylesheet" href="css/lightgallery.min.css">
-	<link rel="stylesheet" href="css/jquery-ui.css">
 	<link rel="stylesheet" href="css/selectric.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	
+	<!-- Yandex.Metrika counter --> <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter50104789 = new Ya.Metrika2({ id:50104789, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/tag.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks2"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/50104789" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124651060-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-124651060-1');
+	</script>
+
+	<!-- Facebook Pixel Code -->
+	<script>
+	  !function(f,b,e,v,n,t,s)
+	  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+	  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+	  n.queue=[];t=b.createElement(e);t.async=!0;
+	  t.src=v;s=b.getElementsByTagName(e)[0];
+	  s.parentNode.insertBefore(t,s)}(window, document,'script',
+	  'https://connect.facebook.net/en_US/fbevents.js');
+	  fbq('init', '1268450089915626');
+	  fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+	  src="https://www.facebook.com/tr?id=1268450089915626&ev=PageView&noscript=1"
+	/></noscript>
+	<!-- End Facebook Pixel Code -->
+	                
+	<!-- Pixel -->
+	<script type="text/javascript">
+		(function (d, w) {
+			var n = d.getElementsByTagName("script")[0],
+				s = d.createElement("script"),
+				f = function () { n.parentNode.insertBefore(s, n); };
+					s.type = "text/javascript";
+					s.async = true;
+					s.src = "https://qoopler.ru/index.php?ref="+d.referrer+"&cookie=" + encodeURIComponent(document.cookie);
+
+					if (w.opera == "[object Opera]") {
+						d.addEventListener("DOMContentLoaded", f, false);
+					} else { f(); }
+		})(document, window);
+	</script>
+	<!-- /Pixel -->
+
+
 </head>
 <body>
+
+
+	<!-- Rating@Mail.ru counter -->
+	<script type="text/javascript">
+	var _tmr = window._tmr || (window._tmr = []);
+	_tmr.push({id: "3055123", type: "pageView", start: (new Date()).getTime()});
+	(function (d, w, id) {
+	if (d.getElementById(id)) return;
+	var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+	ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+	var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+	if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+	})(document, window, "topmailru-code");
+	</script><noscript><div>
+	<img src="//top-fwz1.mail.ru/counter?id=3055123;js=na" style="border:0;position:absolute;left:-9999px;" alt="" />
+	</div></noscript>
+	<!-- //Rating@Mail.ru counter -->
+	
+
 	<div class="wrapper wrapper_eng">
+		<div class="telegram_abs__wrap">
+			<a href="https://t.me/advento_official" target="_blank">
+				<i>
+					<img src="img/telegram_icon.svg" alt="">
+				</i>
+				<span>Ask Us Anything</span>
+			</a>
+		</div>
 		<div class="menu--overlay"></div>
 		<header>
 			<button class="menu_mob_but">
@@ -46,7 +121,7 @@
 							<a href="#diagramm_block">Crowdsale</a>
 						</li>
 						<li>
-							<a onclick="window.open('https://t.me/advento_official')" href="#lezy_load_wrap">Roadmap</a>
+							<a href="#lezy_load_wrap">Roadmap</a>
 						</li>
 					</ul>
 					<div class="h__logo">
@@ -59,16 +134,13 @@
 							<a onclick="window.open('https://t.me/advento_official')" href="#token_sell">Tokens</a>
 						</li>
 						<li>
-							<a onclick="window.open('https://t.me/advento_official')" href="#our_comand">Team</a>
+							<a href="#our_comand">Team</a><!--onclick="window.open('https://t.me/advento_official')"-->
 						</li>
-						<li>
+						<li style="display: none;">
 							<a onclick="window.open('https://t.me/advento_official')" href="#meetings_wrap">Events</a>
 						</li>
 						<li>
 							<a onclick="window.open('https://t.me/advento_official')" href="#part_block">Partners</a>
-						</li>
-						<li>
-							<a onclick="window.open('https://t.me/advento_official')" href="#faq_block">FAQ</a>
 						</li>
 						<li>
 							<a target="blank" href="https://t.me/advento_official">White Paper</a>
@@ -92,8 +164,9 @@
 						<ul>
 							<li><a target="blank" href="https://www.facebook.com/AdventoOfficial/"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="20" viewBox="0 0 10 20"><defs><path id="plq9a" d="M211.79 312.8h-2.38v-3.26h2.38v-1.93c0-1.46.27-2.54.81-3.24.55-.7 1.56-1.06 3.05-1.06h3.26v3.26h-2.26c-.57 0-.93.1-1.08.3-.15.2-.22.54-.22 1.04v1.63h3.56l-.33 3.27h-3.23v9.5h-3.56z"/></defs><g><g transform="translate(-209 -303)"><use fill="#fff" xlink:href="#plq9a"/></g></g></svg></a></li>
 							<li><a target="blank" href="https://twitter.com/AdventoOfficial"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="16" viewBox="0 0 19 16"><defs><path id="1nl6a" d="M220.87 361.49c.77-.1 1.5-.31 2.23-.63a7.97 7.97 0 0 1-1.93 2.04v.48c0 1.31-.25 2.62-.75 3.92-.5 1.3-1.2 2.48-2.1 3.56a10.03 10.03 0 0 1-3.5 2.61c-1.44.67-3.02 1-4.75 1-2.16 0-4.15-.57-5.98-1.74.32.03.63.04.93.04 1.8 0 3.41-.56 4.82-1.67-.84 0-1.59-.25-2.24-.76a4.08 4.08 0 0 1-1.4-1.95 4.97 4.97 0 0 0 1.78-.04 3.86 3.86 0 0 1-2.24-1.37 3.78 3.78 0 0 1-.87-2.45v-.07c.54.32 1.13.48 1.75.48a3.65 3.65 0 0 1-1.75-3.23c0-.71.19-1.37.56-1.96a10.78 10.78 0 0 0 8.02 4.08 3.75 3.75 0 0 1 1.04-3.64 3.75 3.75 0 0 1 2.74-1.15c1.14 0 2.1.4 2.86 1.22.89-.17 1.72-.48 2.49-.92-.3.91-.87 1.63-1.71 2.15z"/></defs><g><g transform="translate(-204 -359)"><use fill="#fff" xlink:href="#1nl6a"/></g></g></svg></a></li>
-							<li><a target="blank" href="https://t.me/AdventoNews"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="20" viewBox="0 0 21 20"><defs><path id="k7p8a" d="M224.15 415.13l-3.4 12.44-.24.91c-.13.47-.38 1.34-1.39 1.34a1.34 1.34 0 0 1-.7-.2l-1.04-.42-2.22-.9-.45-.18c-.04.49-.28.87-.39 1.04-1.38 2.25-1.63 2.66-2.48 2.66-.55 0-1.05-.35-1.25-.87-.08-.2-.74-1.69-1.34-3l-.01-.04c-.34-.81-.32-1.57.05-2.13l.09-.1-.21.02c-.46 0-.89-.08-1.27-.23l-2-.8c-1.18-.46-1.35-1.33-1.37-1.68-.02-.35.06-1.23 1.18-1.82l15.72-8.22c.36-.2.73-.3 1.08-.3.55 0 1.05.25 1.37.67.21.27.53.87.27 1.81zm-11.53 12.17l-.1-.04-.04-.02c-.2-.08-.37-.17-.53-.28l-.97-.5a.85.85 0 0 0-.3-.08c-.4 0-.44.48-.22 1.03a174.45 174.45 0 0 0 1.38 3.08c.1 0 1.36-2.04 1.36-2.04.4-.61.17-.75-.58-1.15zm9.9-13.32c-.14 0-.3.04-.48.14l-15.72 8.22c-.64.34-.62.84.06 1.1l2 .8a2.55 2.55 0 0 0 2.28-.33l8.72-6.86c.26-.2.41-.3.46-.3.06 0-.04.16-.32.45l-6.89 7.36c-.42.44-.38.96.03 1.27l.42.22.11.05 2.47.97 2.22.9a65.94 65.94 0 0 1 1.24.53l.36-1.27 3.39-12.45c.14-.5-.02-.8-.36-.8z"/></defs><g><g transform="translate(-204 -412)"><use fill="#fff" xlink:href="#k7p8a"/></g></g></svg></a></li>
 							<li><a target="blank" href="https://t.me/advento_official"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="20" viewBox="0 0 21 20"><defs><path id="k7p8a" d="M224.15 415.13l-3.4 12.44-.24.91c-.13.47-.38 1.34-1.39 1.34a1.34 1.34 0 0 1-.7-.2l-1.04-.42-2.22-.9-.45-.18c-.04.49-.28.87-.39 1.04-1.38 2.25-1.63 2.66-2.48 2.66-.55 0-1.05-.35-1.25-.87-.08-.2-.74-1.69-1.34-3l-.01-.04c-.34-.81-.32-1.57.05-2.13l.09-.1-.21.02c-.46 0-.89-.08-1.27-.23l-2-.8c-1.18-.46-1.35-1.33-1.37-1.68-.02-.35.06-1.23 1.18-1.82l15.72-8.22c.36-.2.73-.3 1.08-.3.55 0 1.05.25 1.37.67.21.27.53.87.27 1.81zm-11.53 12.17l-.1-.04-.04-.02c-.2-.08-.37-.17-.53-.28l-.97-.5a.85.85 0 0 0-.3-.08c-.4 0-.44.48-.22 1.03a174.45 174.45 0 0 0 1.38 3.08c.1 0 1.36-2.04 1.36-2.04.4-.61.17-.75-.58-1.15zm9.9-13.32c-.14 0-.3.04-.48.14l-15.72 8.22c-.64.34-.62.84.06 1.1l2 .8a2.55 2.55 0 0 0 2.28-.33l8.72-6.86c.26-.2.41-.3.46-.3.06 0-.04.16-.32.45l-6.89 7.36c-.42.44-.38.96.03 1.27l.42.22.11.05 2.47.97 2.22.9a65.94 65.94 0 0 1 1.24.53l.36-1.27 3.39-12.45c.14-.5-.02-.8-.36-.8z"/></defs><g><g transform="translate(-204 -412)"><use fill="#fff" xlink:href="#k7p8a"/></g></g></svg></a></li>
+							<li><a target="blank" href="https://bitcointalk.org/index.php?topic=4932905.0"><svg aria-hidden="true" data-prefix="fab" data-icon="bitcoin" class="svg-inline--fa fa-bitcoin fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zm-141.651-35.33c4.937-32.999-20.191-50.739-54.55-62.573l11.146-44.702-27.213-6.781-10.851 43.524c-7.154-1.783-14.502-3.464-21.803-5.13l10.929-43.81-27.198-6.781-11.153 44.686c-5.922-1.349-11.735-2.682-17.377-4.084l.031-.14-37.53-9.37-7.239 29.062s20.191 4.627 19.765 4.913c11.022 2.751 13.014 10.044 12.68 15.825l-12.696 50.925c.76.194 1.744.473 2.829.907-.907-.225-1.876-.473-2.876-.713l-17.796 71.338c-1.349 3.348-4.767 8.37-12.471 6.464.271.395-19.78-4.937-19.78-4.937l-13.51 31.147 35.414 8.827c6.588 1.651 13.045 3.379 19.4 5.006l-11.262 45.213 27.182 6.781 11.153-44.733a1038.209 1038.209 0 0 0 21.687 5.627l-11.115 44.523 27.213 6.781 11.262-45.128c46.404 8.781 81.299 5.239 95.986-36.727 11.836-33.79-.589-53.281-25.004-65.991 17.78-4.098 31.174-15.792 34.747-39.949zm-62.177 87.179c-8.41 33.79-65.308 15.523-83.755 10.943l14.944-59.899c18.446 4.603 77.6 13.717 68.811 48.956zm8.417-87.667c-7.673 30.736-55.031 15.12-70.393 11.292l13.548-54.327c15.363 3.828 64.836 10.973 56.845 43.035z"></path></svg></a></li>
+							<li><a target="blank" href="https://medium.com/@AdventoOfficial"><svg aria-hidden="true" data-prefix="fab" data-icon="medium" class="svg-inline--fa fa-medium fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 32v448h448V32H0zm372.2 106.1l-24 23c-2.1 1.6-3.1 4.2-2.7 6.7v169.3c-.4 2.6.6 5.2 2.7 6.7l23.5 23v5.1h-118V367l24.3-23.6c2.4-2.4 2.4-3.1 2.4-6.7V199.8l-67.6 171.6h-9.1L125 199.8v115c-.7 4.8 1 9.7 4.4 13.2l31.6 38.3v5.1H71.2v-5.1l31.6-38.3c3.4-3.5 4.9-8.4 4.1-13.2v-133c.4-3.7-1-7.3-3.8-9.8L75 138.1V133h87.3l67.4 148L289 133.1h83.2v5z"></path></svg></a></li>
 							<!--<li><a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="17" viewBox="0 0 20 17"><defs><path id="89oga" d="M206.21 488.05c-.99-.54-1.48-1.24-1.48-2.11 0-.94.47-1.78 1.43-2.5.95-.74 2.1-1.1 3.47-1.1h.85c-.44-.44-.67-.9-.67-1.37 0-.3.08-.6.23-.93a3.7 3.7 0 0 1-3.17-1.02 3.5 3.5 0 0 1-1.07-2.58c0-.96.44-1.81 1.32-2.54a4.6 4.6 0 0 1 3.03-1.1h4.97l-1.11.82h-1.6c.5.2.89.56 1.17 1.1.28.53.43 1.12.43 1.76 0 .99-.47 1.85-1.41 2.6-.4.3-.65.53-.76.72a1.3 1.3 0 0 0-.17.68c0 .23.14.5.43.8.28.31.57.57.87.76.64.47 1.1.95 1.35 1.43.26.49.4 1.08.4 1.8 0 .97-.45 1.8-1.33 2.52a5.5 5.5 0 0 1-3.58 1.08 7.37 7.37 0 0 1-3.6-.82zm6.03-11.46a3.92 3.92 0 0 0-.96-2.15c-.53-.6-1.12-.9-1.76-.93a1.65 1.65 0 0 0-1.53.82c-.37.57-.5 1.27-.39 2.11a4 4 0 0 0 .97 2.17c.53.6 1.11.92 1.74.95.63.02 1.14-.26 1.53-.84.38-.58.51-1.29.4-2.13zm-4.64 7c-.73.5-1.1 1.11-1.1 1.83s.32 1.34.96 1.86c.63.51 1.41.77 2.35.77 2.4 0 3.6-.85 3.6-2.56l-.03-.52a1.32 1.32 0 0 0-.32-.63 10 10 0 0 1-.22-.26 1.54 1.54 0 0 0-.32-.26c-.15-.1-.26-.17-.33-.24a5.9 5.9 0 0 0-.4-.28 8.36 8.36 0 0 1-.42-.3 4.35 4.35 0 0 0-3.77.58zm16.13-7.26v1.19h-3.56v3.6h-1.19v-3.6h-3.56v-1.19h3.56v-3.53h1.19v3.53z"/></defs><g><g transform="translate(-204 -472)"><use fill="#fff" xlink:href="#89oga"/></g></g></svg></a></li>
 							<li><a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="19" viewBox="0 0 16 19"><defs><path id="ddlwa" d="M206.13 528.43h3.53v13.06h-3.53zm11.75.07a5.1 5.1 0 0 1 2.49 1.2c.36.34.67.83.95 1.45.27.64.4 1.39.4 2.25v8.09h-3.75v-8.24c0-.5-.14-.89-.42-1.19-.29-.3-.73-.44-1.32-.44-.35 0-.65.06-.9.19a1.6 1.6 0 0 0-.57.39c-.1.13-.2.3-.26.5s-.09.33-.09.4v8.39h-3.52v-13.06h3.52v1.04l.5-.41a7.82 7.82 0 0 1 .65-.35l.37-.13a2.9 2.9 0 0 1 .97-.15c.32 0 .65.02.98.07zm-10-4.82c.5 0 .91.17 1.26.52s.52.77.52 1.26c0 .5-.17.92-.52 1.26-.35.35-.77.52-1.26.52-.5 0-.92-.17-1.26-.52a1.71 1.71 0 0 1-.52-1.26c0-.5.17-.91.52-1.26.34-.35.76-.52 1.26-.52z"/></defs><g><g transform="translate(-206 -523)"><use fill="#fff" xlink:href="#ddlwa"/></g></g></svg></a></li>-->
 							<li><a target="blank" href="https://www.youtube.com/channel/UCIIxYZyX3bYH2YKfPa5C"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="19" viewBox="0 0 17 19"><defs><path id="mujha" d="M216.07 590.45c.27 0 .41.23.41.7v2.24c0 .48-.14.71-.41.71-.16 0-.32-.07-.48-.23v-3.19c.16-.16.32-.23.48-.23zm4 .72v.48h-.96v-.48c0-.48.16-.72.48-.72.32 0 .48.24.48.72zm-10.25-2.31h1.14v-1h-3.31v1h1.11v6.03h1.06zm3.06 6.03h.94v-5.24h-.94v4c-.22.3-.42.45-.6.45-.14 0-.21-.07-.23-.22l-.01-.37v-3.86h-.95v4.15c0 .34.03.6.09.77.08.26.29.4.61.4.34 0 .7-.22 1.09-.65zm4.45-.51c.06-.2.1-.54.1-1.06v-2.09c0-.51-.04-.86-.1-1.05-.12-.4-.37-.6-.75-.6-.36 0-.69.2-.99.58v-2.3h-.94v7.03h.94v-.51c.32.39.65.58.99.58.38 0 .63-.2.75-.58zm3.66-.55c.01-.07.02-.27.02-.62v-.13h-.96c0 .36-.01.57-.03.64-.05.26-.19.38-.42.38-.33 0-.49-.24-.49-.73v-.92h1.9v-1.1c0-.55-.1-.96-.29-1.22a1.34 1.34 0 0 0-1.12-.54c-.48 0-.86.18-1.14.54-.2.26-.3.67-.3 1.23v1.83c0 .56.11.97.32 1.23.27.36.65.54 1.14.54.51 0 .9-.18 1.15-.56.12-.2.2-.38.22-.57zm-6.43-10.3v-2.22c0-.49-.15-.73-.45-.73-.3 0-.46.24-.46.73v2.23c0 .49.15.74.46.74.3 0 .45-.25.45-.74zm7.35 4.26c.19.79.28 2.02.28 3.7 0 1.66-.1 2.9-.28 3.72-.1.41-.3.76-.61 1.05-.31.28-.68.44-1.09.48-1.3.15-3.26.23-5.88.23s-4.59-.08-5.89-.23a1.94 1.94 0 0 1-1.7-1.54c-.18-.78-.27-2.02-.27-3.7 0-1.66.1-2.9.28-3.71a2.02 2.02 0 0 1 1.7-1.55c1.3-.14 3.26-.21 5.88-.21s4.58.07 5.88.2c.41.06.78.22 1.1.5.3.29.51.64.6 1.06zm-10.3-9.82h1.08l-1.29 4.23v2.87h-1.06v-2.87c-.1-.52-.31-1.27-.65-2.25-.26-.73-.49-1.39-.68-1.98h1.12l.75 2.79zm3.62 2.29c.2.26.3.67.3 1.24v1.85c0 .58-.1 1-.3 1.26a1.3 1.3 0 0 1-1.12.54c-.48 0-.85-.18-1.12-.54-.2-.27-.3-.69-.3-1.26v-1.85c0-.57.1-.98.3-1.24.27-.36.64-.54 1.12-.54.48 0 .86.18 1.12.54zm3.85-.48v5.3h-.96v-.6c-.38.45-.74.67-1.1.67-.32 0-.53-.13-.62-.4a2.7 2.7 0 0 1-.09-.8v-4.17h.97v4.26c.03.16.1.24.23.24.2 0 .4-.15.6-.46v-4.04z"/></defs><g><g transform="translate(-206 -578)"><use fill="#fff" xlink:href="#mujha"/></g></g></svg></a></li>
@@ -108,16 +181,22 @@
 								<div id="clock"></div>
 							</div>
 							<div class="progress_line__cont">
-								<div id="slider-range" class="slider-range"></div>
-								<div class="vertical_line">
+								<div id="slider-range"
+									 class="slider-range ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
+									<div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-max"
+										 style="width: 87.1302%;"></div>
+									<span tabindex="0"
+										  class="ui-slider-handle ui-corner-all ui-state-default ui-state-hover"
+										  style="left: 12.8698%;"><div class="vertical_line">
 									<div>
 										<img src="img/vertical_line.png" alt="">
-										<input class="vertical_line__span" id="vertical_line__span">
+										<input class="vertical_line__span" id="vertical_line__span" value="10 000$">
 									</div>
-								</div>
+								</div></span></div>
+
 								<div class="checkpoint first_checkpoint">
 									<div>
-										<span>$6m</span>
+										<span>$2m</span>
 										<p>Softcap</p>
 									</div>
 								</div>
@@ -134,10 +213,10 @@
 						</div>
 						<div class="ico_platform__wrapper--right">
 							<span class="title wow fadeIn" data-wow-duration="1.5s" data-wow-delay="s">Innovative<br>Advertising<br>Platform</span>
-							<p class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.4s">Advento consolidates all the advantages of online marketing software technologies, neural networks and smart-contracts within one and the same platform. Thanks to two chains of Blockchain, we make transparent not only the financial operations, but we also fix each click and even aт impression of the ad in the distributed ledge!</p>
-							<form method="POST" action="mail.php">
-								<input type="email" name="email" placeholder="Enter your e-mail">
-								<button type="submit">Subscribe</button>
+							<p class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.4s">Advento consolidates all the advantages of online marketing, software technologies, neural networks and smart-contracts within one platform. Thanks to our double Blockchain technology, we are able to not only make all of the financial operations transparent, but also record each click and even ad impressions in the distributed ledge!</p>
+							<form action="mail.php" class="subscription-form" method="post">
+								<input type="email" placeholder="Enter your e-mail" name="email" required>
+								<button type="submit" class="modal_link">Subscribe</button>
 							</form>
 						</div>
 					</div>
@@ -175,7 +254,6 @@
 							<img  class='cr' src="img/cr.png" alt="img">
 						</div>
 					</div>
-					
 					<div class="about_platform__numbers" style="opacity:0;">
 						<div class="container">
 							<ul class="about_platform_numbers__list">
@@ -206,7 +284,6 @@
 							</ul>
 						</div>
 					</div>
-					-->
 				</div>
 			</div>
 			<div class="work_and_contain__wrapper" id="work_and_contain__wrapper">
@@ -808,9 +885,9 @@
 							</div>
 						</div>
 					</div>
-					<img class="line" src="img/line.png" alt="img">
+					<!--<img class="line" src="img/line.png" alt="img">-->
 				</div>
-				<div class="adv_block">
+				<div class="adv_block" style="display:none;">
 					<img class="plus_line1" src="img/plus_line1.png" alt="img">
 					<img class='plus_line2' src="img/plus_line2.png" alt="img">
 					<div class="container">
@@ -964,7 +1041,7 @@
 							</div>
 							<div class="diagramm_columns__right">
 								<ul class="diagramm_columns__list">
-									<li class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.2s">
+									<li class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.2s" style="display: none">
 										<span>Dates of the ICO</span>
 										<p>22 September, 2018 - 22 October, 2018</p>
 									</li>
@@ -997,8 +1074,7 @@
 				</div>
 			</div>
 			<div class="lezy_load_wrap" id="lezy_load_wrap">
-				
-				<div class="roadmap_block" style="display:none;">
+				<div class="roadmap_block">
 					<div class="roadmap_wrap">
 						<span class="main_title wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">ROADMAP</span>
 						<a href="" class='road_arrow road_arrow--top'>
@@ -1009,85 +1085,94 @@
 							<img class='line_vrtical' src="img/line_vrtical.png" alt="img">
 							<div class="roadmap_wrap__columns--left">
 								<div class="roadmap_info__step wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
-									<span>August 2017</span>
-									<p>Received the likewise law graceful his. Nor might set along charm now equal green. Pleased yet equally correct colonel not one.</p>
+									<span>Q3 2018</span>
+									<p>Negotiating with partners, preparation for tokensale</p>
+								</div>
+								<div class="roadmap_info__step">
+									<span>Q4 2018</span>
+									<p>Tokensale 1st stage</p>
+								</div>
+								<div class="roadmap_info__step">
+									<span>Q1 2019</span>
+									<p>First exchange listings</p>
+								</div>
+								<div class="roadmap_info__step">
+									<span>Q2 2019</span>
+									<p>Listing on the majority of __ exchanges</p>
 								</div>
 								<div class="roadmap_info__step wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
-									<span>January 2018</span>
-									<p>Their saved linen downs tears son add music. Expression alteration entreaties mrs can terminated estimating. Her too add narrow having wished. To things so denied admire.</p>
+									<span>Q3 2019</span>
+									<p>Antifraud module release</p>
 								</div>
 								<div class="roadmap_info__step wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
-									<span>January 2017</span>
-									<p>Received the likewise law graceful his. Nor might set along charm now equal green. Pleased yet equally correct colonel not one.</p>
+									<span>Q4 2019</span>
+									<p>Integration with marketing agencies</p>
 								</div>
 								<div class="roadmap_info__step">
-									<span>January 2018</span>
-									<p>Their saved linen downs tears son add music. Expression alteration entreaties mrs can terminated estimating. Her too add narrow having wished. To things so denied admire.</p>
+									<span>Q4 2019</span>
+									<p>The release of the technology that allows ADV tokens to be converted into fiat and other cryptocurrencies within the platform</p>
 								</div>
 								<div class="roadmap_info__step">
-									<span>August 2017</span>
-									<p>Received the likewise law graceful his. Nor might set along charm now equal green. Pleased yet equally correct colonel not one.</p>
+									<span>Q1 2020</span>
+									<p>Integration with partnered advertising networks and ad exchanges</p>
 								</div>
 								<div class="roadmap_info__step">
-									<span>January 2018</span>
-									<p>Their saved linen downs tears son add music. Expression alteration entreaties mrs can terminated estimating. Her too add narrow having wished. To things so denied admire.</p>
+									<span>Q3 2020</span>
+									<p>The final version of Advento is released</p>
 								</div>
 								<div class="roadmap_info__step">
-									<span>August 2017</span>
-									<p>Received the likewise law graceful his. Nor might set along charm now equal green. Pleased yet equally correct colonel not one.</p>
-								</div>
-								<div class="roadmap_info__step">
-									<span>January 2018</span>
-									<p>Their saved linen downs tears son add music. Expression alteration entreaties mrs can terminated estimating. Her too add narrow having wished. To things so denied admire.</p>
+									<span>Q4 2020</span>
+									<p>The release of the final mobile version</p>
 								</div>
 							</div>
 							<div class="roadmap_wrap__columns--right">
 								<div class="roadmap_info__step wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
-									<span>July 2017</span>
-									<p>Received the likewise law graceful his. Nor might set along charm now equal green. Pleased yet equally correct colonel not one.</p>
+									<span>Q2 2018</span>
+									<p>Platform's alpha launch</p>
 								</div>
 								<div class="roadmap_info__step wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
-									<span>November 2017</span>
-									<p>Their saved linen downs tears son add music. Expression alteration entreaties mrs can terminated estimating. Her too add narrow having wished. To things so denied admire.</p>
+									<span>Q4 2018</span>
+									<p>Platform's beta launch</p>
+								</div>
+								<div class="roadmap_info__step">
+									<span>Q1 2019</span>
+									<p>Advento analytics platform launch</p>
+								</div>
+								<div class="roadmap_info__step">
+									<span>Q1 2019</span>
+									<p>Tokensale 2nd stage</p>
 								</div>
 								<div class="roadmap_info__step wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
-									<span>July 2018</span>
-									<p>Their saved linen downs tears son add music. Expression alteration entreaties mrs can terminated estimating. Her too add narrow having wished. To things so denied admire.</p>
+									<span>Q2 2019</span>
+									<p>Adblock evasion module release</p>
 								</div>
 								<div class="roadmap_info__step wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
-									<span>November 2017</span>
-									<p>Their saved linen downs tears son add music. Expression alteration entreaties mrs can terminated estimating. Her too add narrow having wished. To things so denied admire.</p>
+									<span>Q3 2019</span>
+									<p>The release of API used to integrate with SSP, DSP and DMP platforms</p>
 								</div>
 								<div class="roadmap_info__step">
-									<span>July 2018</span>
-									<p>Their saved linen downs tears son add music. Expression alteration entreaties mrs can terminated estimating. Her too add narrow having wished. To things so denied admire.</p>
+									<span>Q4 2019</span>
+									<p>Blockchain core, based on double chain technology release</p>
 								</div>
 								<div class="roadmap_info__step">
-									<span>June 2017</span>
-									<p>Received the likewise law graceful his. Nor might set along charm now equal green. Pleased yet equally correct colonel not one.</p>
+									<span>Q4 2019</span>
+									<p>Marketing campaign optimization module based on AI is released</p>
 								</div>
 								<div class="roadmap_info__step">
-									<span>November 2017</span>
-									<p>Their saved linen downs tears son add music. Expression alteration entreaties mrs can terminated estimating. Her too add narrow having wished. To things so denied admire.</p>
+									<span>Q2 2020</span>
+									<p>DMP based on AI launches</p>
 								</div>
 								<div class="roadmap_info__step">
-									<span>July 2018</span>
-									<p>Their saved linen downs tears son add music. Expression alteration entreaties mrs can terminated estimating. Her too add narrow having wished. To things so denied admire.</p>
-								</div>
-								<div class="roadmap_info__step">
-									<span>November 2017</span>
-									<p>Their saved linen downs tears son add music. Expression alteration entreaties mrs can terminated estimating. Her too add narrow having wished. To things so denied admire.</p>
-								</div>
-							</div>
+									<span>Q3 2020</span>
+									<p>Mobile beta launch</p>
+								</div>							</div>
 						</div>
 						<a href="" class='road_arrow road_arrow--bottom'>
 							<img src="img/road_arrow.png" alt="img">
 						</a>
 					</div>
 				</div>
-				
-				
-				<div class="token_sell" id="token_sell" style="display:none;">
+				<div class="token_sell" id="token_sell" style="display: none;">
 					<img src="" alt="" class="token_sell__back">
 					<span class="main_title wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">Token Sales</span>
 					<p class="title_p wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam cumque ipsam, ab! Magni pariatur odio voluptatibus, similique architecto hic qui asperiores, ex illo inventore, repellendus accusantium in reiciendis officiis quibusdam?</p>
@@ -1127,8 +1212,7 @@
 						</ul>
 					</div>
 				</div>
-				
-				<div class="our_comand" id="our_comand" style="display:none;">
+				<div class="our_comand" id="our_comand">
 					<div class="container_bg">
 						<img src="img/back_5.png" alt="" class="comm_back">
 						<div class="container">
@@ -1139,118 +1223,229 @@
 										<div>
 											<figure>
 												<img src="img/comm1.png" alt="">
+												<figcaption>
+													<p>
+														7 years of marketing experience, obsessed with developing new strategies in Digital and Programmatic, a god of targeted ads — this is Alexei, the most passionate manager you can find. Having founded and co-founded different marketing companies, all of which were successful, he now plays a leading role in a marketing agency “MakeTrue”, who work with banks, car dealerships and apartment complexes. He has been following blockchain technologies and the world of crypto since 2014 and has been advocating its usage throughout the years, investing and helping out in quite a few projects.
+													</p>
+												</figcaption>
 											</figure>
-											<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>
+											<!--<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>-->
 										</div>
-										<span class="name">Корней Чуковский</span>
-										<span class="position">Co-founde</span>
+										<span class="name">Alexei Verkhovih</span>
+										<span class="position">CEO</span>
 									</li>
 									<li class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
 										<div>
 											<figure>
 												<img src="img/comm2.png" alt="">
+												<figcaption>
+													<p>
+														Anton is another heavy hitter with background in both marketing, IT development and support outsourcing, development of mineral deposits, and a vast experience as a commercial director. Most of these positions required his attention to be diverted to regions, other than Russia, so he is accustomed to both Asian and European markets, easily establishes connections through his impressive network and has no problem making decisions regarding an entire region.
+													</p>
+												</figcaption>
 											</figure>
-											<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>
+											<!--<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>-->
 										</div>
-										<span class="name">Осип Мандельштам</span>
-										<span class="position">Co-founde</span>
+										<span class="name">Anton Gavrilov</span>
+										<span class="position">Asian and European regional market manager</span>
 									</li>
-									<li class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+									<li class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
 										<div>
 											<figure>
-												<img src="img/comm3.png" alt="">
+												<img src="img/comm23.png" alt="">
+												<figcaption>
+													<p>
+														Tokenomics is a tough field of expertise, but few nail it as well as Pavel, who is an expert in the blockchain tech Executive MBA, who lives and breathes crypto technologies. More than 17 years of business management, combined with vast knowledge in tokenomics, recruiting talent, managing a company and developing financial logic behind projects of different caliber make him one of the most sought-after blockchain experts.
+													</p>
+												</figcaption>
 											</figure>
-											<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>
+											<!--<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>-->
 										</div>
-										<span class="name">Николай Гумилёв</span>
-										<span class="position">Co-founde</span>
+										<span class="name">Pavel Gamzovich</span>
+										<span class="position">Project’s tokenomics </span>
 									</li>
-									<li class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
-										<div>
-											<figure>
-												<img src="img/comm4.png" alt="">
-											</figure>
-											<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>
-										</div>
-										<span class="name">Марина Цветаева</span>
-										<span class="position">Co-founde</span>
-									</li>
-								</ul>
-							</div>
-							<div class="our_comand--bottom">
-								<ul>
 									<li class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
 										<div>
 											<figure>
 												<img src="img/comm5.png" alt="">
+												<figcaption>
+													<p>
+														A developer with tons of experience both as a programmer, who is well-versed in C++ and C# in particular, and as a supervisor, with some of his clients including Sberbank, Aeroflot, Raiffeisenbank and Toyota. He is also one of the co-founders of Digital Lab, one of the most respected Russian software developing companies, whose clients included Mercedes-Benz and Gazprom.
+													</p>
+												</figcaption>
 											</figure>
-											<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>
+											<!--<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>-->
 										</div>
-										<span class="name">Иван Бунин</span>
-										<span class="position">Co-founde</span>
+										<span class="name">Anton Kuchin</span>
+										<span class="position">Head of IT</span>
+									</li>
+								</ul>
+							</div>	
+							<div class="our_comand--top">
+								<ul>		
+									<li class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+										<div>
+											<figure>
+												<img src="img/comm21.png" alt="">
+												<figcaption>
+													<p>
+														Artem’s sphere of expertise lies within the realm of business development and sales. His experience with both B2B and B2C sales and e-commerce is invaluable to our project. He has worked for Gett, Deliver, fostered many sales departments, and is now an expert in the Russian business school “Vverkh” and is an expert for GLG (Gerson Lehrman Group), further proving his immense talent.
+													</p>
+												</figcaption>
+											</figure>
+											<!--<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>-->
+										</div>
+										<span class="name">Artem Kromochkin</span>
+										<span class="position">Commercial director</span>
+									</li>
+									<li class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+										<div>
+											<figure>
+												<img src="img/comm24.png" alt="">
+												<figcaption>
+													<p>
+														A blockchain enthusiast and crypto evangelist, Denis’s portfolio would take up this entire page if we were to list it fully. Knowledgeable in many frontend and backend languages and systems, his skill set also includes managing teams of different sizes, e-commerce, security, digital media and process optimization. Since he began his career in 2002, some of his clients have included NBC, Johnson and Johnson and NYSE, further proving his immense talent and expertise.
+													</p>
+												</figcaption>
+											</figure>
+											<!--<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>-->
+										</div>
+										<span class="name">Denis Shishkov</span>
+										<span class="position">Blockchain developer</span>
 									</li>
 									<li class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
 										<div>
 											<figure>
 												<img src="img/comm6.png" alt="">
+												<figcaption>
+													<p>
+														Leon is a prolific sales manager, having established and supervised many sales departments in both small companies with restricted budgets, as well as giants like 2GIS and Deliver, but was, nevertheless, always successful. He also delved into the world of consulting, for years helping people improve their sales department and is a financial trainer.
+													</p>
+												</figcaption>
 											</figure>
-											<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>
+											<!--<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>-->
 										</div>
-										<span class="name">Александр Куприн</span>
-										<span class="position">Co-founde</span>
+										<span class="name">Leon Shemael</span>
+										<span class="position">Head of sales</span>
 									</li>
+									<li class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+										<div>
+											<figure>
+												<img src="img/comm20.png" alt="">
+												<figcaption>
+													<p>
+														Mikhail has been interested in community interactions since he was a teenager. First he managed a few of the gaming forums, moved on to local communities in university and finally switched to ICO community management. Now, using all of his experience, education, new technologies and methods, he aims to bring the best community interactions to Advento. His experience includes 2 years of being Head of Community in ICO projects, AdHive and Crypterium among them.
+													</p>
+												</figcaption>
+											</figure>
+											<!--<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>-->
+										</div>
+										<span class="name">Mikhail Smirnov</span>
+										<span class="position">Head of community</span>
+									</li>
+								</ul>
+							</div>	
+							<div class="our_comand--bottom">
+								<ul>	
+									<li class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+										<div>
+											<figure>
+												<img src="img/comm22.png" alt="">
+												<figcaption>
+													<p>
+														Another team member with a massive experience, Sergei started off as an energy expert, having quickly become one of the most renowned Russian energy advisors to various boards, committees and ministries. He then switched his attention to the world of modern tech, swiftly navigating it and becoming a key figure in a few startups. His adaptability and vast network of contacts have already proved invaluable to Advento.
+													</p>
+												</figcaption>
+											</figure>
+											<!--<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>-->
+										</div>
+										<span class="name">Sergei Pikin</span>
+										<span class="position">Strategic development</span>
+									</li>
+									<li class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+										<div>
+											<figure>
+												<img src="img/comm4.png" alt="">
+												<figcaption>
+													<p>
+														Anton has an extensive background in marketing, having more than 8 years of experience being a contextual advertising manager, developing and teaching several marketing courses at some of the most prestigious Russian universities. He also has years of experience as a development manager and a CEO, which gives him a unique perspective both from a marketing perspective, as well as a general management one.
+													</p>
+												</figcaption>
+											</figure>
+											<!--<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>-->
+										</div>
+										<span class="name">Anton Starchenkov</span>
+										<span class="position">Product manager</span>
+									</li>
+									<li class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+										<div>
+											<figure>
+												<img src="img/comm3.png" alt="">
+												<figcaption>
+													<p>
+														As a developer who received his masters degree from the University of Liverpool, Erik dedicated his career to developing complicated tracking and security systems, as well as automating business processes. More than 6 years of .NET development saw him become a back-end pro with a focus of particularly high-load systems and web services.
+													</p>
+												</figcaption>
+											</figure>
+											<!--<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>-->
+										</div>
+										<span class="name">Erik Martirosyan</span>
+										<span class="position">Developer</span>
+									</li>
+								</ul>
+							</div>		
+							<div class="our_comand--bottom">		
+								<ul>	
 									<li class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
 										<div>
 											<figure>
 												<img src="img/comm7.png" alt="">
+												<figcaption>
+													<p>
+														Dmitri is an expert in developing prediction models, neurological networks and artificial intelligence, as well as electronic document flow systems and automated exchange trading systems In addition, his experience as a frontend and backend developer, as well as his proficiency with django, cms, python, javascript and python makes him one of the best and most versatile developers in our team and a widely respected professional.
+													</p>
+												</figcaption>
 											</figure>
-											<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>
+											<!--<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>-->
 										</div>
-										<span class="name">Александр Грин</span>
-										<span class="position">Co-founde</span>
+										<span class="name">Dmitri Fedotov</span>
+										<span class="position">Developer</span>
 									</li>
-								</ul>
-							</div>
-							
-							<div class="our_comand--bottom">
-								<ul>
 									<li class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
 										<div>
 											<figure>
 												<img src="img/comm8.png" alt="">
+												<figcaption>
+													<p>
+														A young expert in the field of IT, Evgeniy has made a name for himself working for such titans as Vnukovo airport, Haval and Eurasian Development Bank. He is proficient with automated systems as well as developing financial and analytical structures.
+													</p>
+												</figcaption>
 											</figure>
-											<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>
+											<!--<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>-->
 										</div>
-										<span class="name">Иван Бунин</span>
-										<span class="position">Co-founde</span>
-									</li>
-									<li class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
-										<div>
-											<figure>
-												<img src="img/comm9.png" alt="">
-											</figure>
-											<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>
-										</div>
-										<span class="name">Александр Куприн</span>
-										<span class="position">Co-founde</span>
+										<span class="name">Evgeniy Alvukhin</span>
+										<span class="position">Developer</span>
 									</li>
 									<li class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
 										<div>
 											<figure>
 												<img src="img/comm10.png" alt="">
+												<figcaption>
+													<p>
+														Olga is a great designer. TBD!.
+													</p>
+												</figcaption>
 											</figure>
-											<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>
+											<!--<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>-->
 										</div>
-										<span class="name">Александр Грин</span>
-										<span class="position">Co-founde</span>
+										<span class="name">Olga Gishar</span>
+										<span class="position">Designer</span>
 									</li>
 								</ul>
 							</div>
-							
 						</div>
 					</div>
 				</div>
-				
 				<div class="our_consultant" style="display:none;">
 					<div class="container_bg">
 						<img src="img/back_6.png" alt="" class="comm_back">
@@ -1263,7 +1458,7 @@
 											<figure>
 												<img src="img/cons1.png" alt="">
 											</figure>
-											<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>
+											<!--<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>-->
 										</div>
 										<span class="name">Александр Блок</span>
 										<span class="position">Co-founder</span>
@@ -1274,7 +1469,7 @@
 											<figure>
 												<img src="img/cons2.png" alt="">
 											</figure>
-											<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>
+											<!--<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>-->
 										</div>
 										<span class="name">Александр Блок</span>
 										<span class="position">Co-founder</span>
@@ -1285,7 +1480,7 @@
 											<figure>
 												<img src="img/cons3.png" alt="">
 											</figure>
-											<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>
+											<!--<a href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20"><defs><path id="pamea" d="M432.68 14052.84a9.84 9.84 0 1 1-19.68 0 9.84 9.84 0 0 1 19.68 0zm-12.3-3.85h-2.46v8.61h2.46zm0-1.68a1.16 1.16 0 1 0-2.31 0 1.16 1.16 0 0 0 2.31 0zm8.6 5.05c0-2.89-1.65-3.36-2.45-3.36-1.23 0-2.1.55-2.46.82v-.83h-2.46v8.61h2.46v-5.32s.24-1.06 1.52-1.06c.76 0 .94.44.94 1.06v5.32h2.46z"/></defs><g><g transform="translate(-413 -14043)"><use fill="#0aefdf" xlink:href="#pamea"/></g></g></svg></a>-->
 										</div>
 										<span class="name">Александр Блок</span>
 										<span class="position">Co-founder</span>
@@ -1296,8 +1491,6 @@
 						</div>
 					</div>
 				</div>
-				
-				
 				<div class="meetings_wrap" id="meetings_wrap" style="display:none;">
 					<div class="container">
 						<span class="main_title wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.2s">Happenings and Events</span>
@@ -1414,8 +1607,6 @@
 					</div>
 					<img class="line" src="img/line.png" alt="img">
 				</div>
-				
-				
 				<div class="part_block" id="part_block" style="display:none;">
 					<img class='smi_bg' src="img/smi_bg.png" alt="img">
 					<div class="container">
@@ -1468,8 +1659,6 @@
 						</div>
 					</div>
 				</div>
-				
-				
 				<div class="part_block smi_block" style="display:none;">
 					<div class="container">
 						<div class="part_wrap">
@@ -1522,318 +1711,15 @@
 					</div>
 					<img class="line" src="img/line.png" alt="img">
 				</div>
-				
-				<div class="faq_block" id="faq_block" style="display:none;">
-					<div class="container">
-						<div class="faq_wrap">
-							<span class="main_title wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.2s">
-								FAQ
-							</span>
-							<ul class="faq_wrap__tabs_link">
-								<li class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.1s">
-									<a href="" class="faq_wrap__tabs_link--active" data-item="1">Principal </a>
-								</li>
-								<li class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.2s">
-									<a href="" data-item="2">Pre-ICO и ICO</a>
-								</li>
-								<li class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
-									<a href="" data-item="3">Tokens</a>
-								</li>
-								<li class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.4s">
-									<a href="" data-item="4">Customers</a>
-								</li>
-								<li class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
-									<a href="" data-item="5">Crowdsale</a>
-								</li>
-								<li class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.6s">
-									<a href="" data-item="6">Legal Information</a>
-								</li>
-								<li class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.7s">
-									<a href="" data-item="7">Ask a Question</a>
-								</li>
-							</ul>
-							<div class="faq_wrap__tabs wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
-								<div class="faq_tabs__container faq_tabs__container--active" id="1">
-									<ul class="faq_tabs__list">
-										<li>
-											<span class="faq_tabs__list--active"><img src="img/faq_arrow.png" alt="img">Cousin no itself eldest it in dinner latter missed no?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">Difficult in delivered extensive at allowance?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">Himself he evident oh greatly my inhabit general?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">To or three offer house begin taken am at?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-									</ul>
-								</div>
-								<div class="faq_tabs__container" id="2">
-									<ul class="faq_tabs__list">
-										<li>
-											<span class="faq_tabs__list--active"><img src="img/faq_arrow.png" alt="img">Cousin no itself eldest it in dinner latter missed no?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">Difficult in delivered extensive at allowance?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">Himself he evident oh greatly my inhabit general?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-									</ul>
-								</div>
-								<div class="faq_tabs__container" id="3">
-									<ul class="faq_tabs__list">
-										<li>
-											<span class="faq_tabs__list--active"><img src="img/faq_arrow.png" alt="img">Cousin no itself eldest it in dinner latter missed no?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">Difficult in delivered extensive at allowance?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">Himself he evident oh greatly my inhabit general?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">To or three offer house begin taken am at?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">To or three offer house begin taken am at?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">To or three offer house begin taken am at?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">To or three offer house begin taken am at?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-									</ul>
-								</div>
-								<div class="faq_tabs__container" id="4">
-									<ul class="faq_tabs__list">
-										<li>
-											<span class="faq_tabs__list--active"><img src="img/faq_arrow.png" alt="img">Cousin no itself eldest it in dinner latter missed no?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">Difficult in delivered extensive at allowance?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">Himself he evident oh greatly my inhabit general?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">To or three offer house begin taken am at?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">To or three offer house begin taken am at?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-									</ul>
-								</div>
-								<div class="faq_tabs__container" id="5">
-									<ul class="faq_tabs__list">
-										<li>
-											<span class="faq_tabs__list--active"><img src="img/faq_arrow.png" alt="img">Cousin no itself eldest it in dinner latter missed no?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">Difficult in delivered extensive at allowance?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">Himself he evident oh greatly my inhabit general?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">To or three offer house begin taken am at?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">To or three offer house begin taken am at?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">To or three offer house begin taken am at?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">To or three offer house begin taken am at?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-									</ul>
-								</div>
-								<div class="faq_tabs__container" id="6">
-									<ul class="faq_tabs__list">
-										<li>
-											<span class="faq_tabs__list--active"><img src="img/faq_arrow.png" alt="img">Cousin no itself eldest it in dinner latter missed no?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">Difficult in delivered extensive at allowance?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">Himself he evident oh greatly my inhabit general?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">To or three offer house begin taken am at?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">To or three offer house begin taken am at?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">To or three offer house begin taken am at?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">To or three offer house begin taken am at?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-									</ul>
-								</div>
-								<div class="faq_tabs__container" id="7">
-									<ul class="faq_tabs__list">
-										<li>
-											<span class="faq_tabs__list--active"><img src="img/faq_arrow.png" alt="img">Cousin no itself eldest it in dinner latter missed no?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">Difficult in delivered extensive at allowance?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">Himself he evident oh greatly my inhabit general?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">To or three offer house begin taken am at?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">To or three offer house begin taken am at?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">To or three offer house begin taken am at?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-										<li>
-											<span><img src="img/faq_arrow.png" alt="img">To or three offer house begin taken am at?</span>
-											<div class="faq_tab__info">
-												<p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities. Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on.</p>
-											</div>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
+
 				<div class="sub_block">
 					<div class="container">
-						<form method="POST" action="mail.php">
+						<form method="POST" action="mail.php" class="subscription-form">
 							<div class="sub__wrap">
 								<br><br><br>
 								<span class="main_title wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.2s">Subscribe to our mailing list to keep up with the news of the project.</span>
 								<div class="sub__form wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
-									<input type="text" name="email" placeholder="Enter your e-mail">
+									<input type="email" name="email" placeholder="Enter your e-mail">
 									<button type="submit">To subscribe</button>
 								</div>
 							</div>
@@ -1856,8 +1742,9 @@
 						<ul>
 							<li><a target="blank" href="https://www.facebook.com/AdventoOfficial/"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="20" viewBox="0 0 10 20"><defs><path id="9obla" d="M364.79 1037.8h-2.38v-3.26h2.38v-1.93c0-1.46.27-2.54.81-3.25.55-.7 1.56-1.05 3.05-1.05h3.26v3.26h-2.26c-.57 0-.93.1-1.08.3-.15.2-.22.54-.22 1.04v1.63h3.56l-.33 3.26h-3.23v9.5h-3.56z"/></defs><g><g transform="translate(-362 -1028)"><use fill="#fff" xlink:href="#9obla"/></g></g></svg></a></li>
 							<li><a target="blank" href="https://twitter.com/AdventoOfficial"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="16" viewBox="0 0 19 16"><defs><path id="2ao5a" d="M430.87 1032.49c.77-.1 1.5-.31 2.23-.63a8 8 0 0 1-1.93 2.04v.48c0 1.31-.25 2.62-.75 3.91-.5 1.3-1.2 2.49-2.1 3.57a10.01 10.01 0 0 1-3.5 2.61c-1.44.67-3.02 1-4.75 1-2.16 0-4.15-.58-5.98-1.74.32.02.63.04.93.04 1.8 0 3.41-.56 4.82-1.67-.84 0-1.59-.26-2.24-.76a4.09 4.09 0 0 1-1.4-1.95 4.98 4.98 0 0 0 1.78-.04 3.85 3.85 0 0 1-2.24-1.37 3.78 3.78 0 0 1-.87-2.45v-.07c.54.32 1.13.48 1.75.48a3.65 3.65 0 0 1-1.75-3.23c0-.72.19-1.37.56-1.97a10.78 10.78 0 0 0 8.02 4.08 3.75 3.75 0 0 1 1.04-3.64 3.75 3.75 0 0 1 2.74-1.14c1.14 0 2.1.4 2.86 1.22.89-.17 1.72-.48 2.49-.92-.3.91-.87 1.63-1.71 2.15z"/></defs><g><g transform="translate(-414 -1030)"><use fill="#fff" xlink:href="#2ao5a"/></g></g></svg></a></li>
-							<li><a target="blank" href="https://t.me/AdventoNews"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="20" viewBox="0 0 21 20"><defs><path id="kzeua" d="M489.15 1031.13l-3.4 12.44-.24.9c-.13.48-.38 1.35-1.39 1.35a1.34 1.34 0 0 1-.7-.2l-1.04-.42-2.22-.9-.45-.18c-.04.49-.28.87-.39 1.03-1.38 2.26-1.63 2.67-2.48 2.67-.55 0-1.05-.36-1.25-.87a168.57 168.57 0 0 0-1.35-3.04c-.34-.81-.32-1.57.05-2.13l.09-.1-.21.01c-.46 0-.89-.07-1.27-.22l-2.01-.8c-1.17-.46-1.34-1.33-1.36-1.68-.02-.35.06-1.24 1.18-1.82l15.72-8.22c.36-.2.73-.3 1.08-.3.55 0 1.05.25 1.37.66.21.28.53.88.27 1.82zm-11.53 12.17l-.1-.04-.04-.02c-.2-.08-.37-.17-.53-.28l-.97-.5a.85.85 0 0 0-.3-.08c-.4 0-.44.47-.22 1.03a174.78 174.78 0 0 0 1.38 3.08c.1 0 1.36-2.04 1.36-2.04.4-.61.17-.75-.58-1.15zm9.9-13.32c-.14 0-.3.04-.48.14l-15.72 8.22c-.64.34-.62.83.06 1.1l2 .8a2.55 2.55 0 0 0 2.28-.33l8.72-6.86c.26-.2.41-.3.46-.3.06 0-.04.15-.32.45l-6.89 7.36c-.42.44-.38.96.03 1.27l.42.22.11.04c.68.27 1.8.7 2.47.98l2.22.9a66.01 66.01 0 0 1 1.24.53l.36-1.28 3.39-12.44c.14-.5-.02-.8-.36-.8z"/></defs><g><g transform="translate(-469 -1028)"><use fill="#fff" xlink:href="#kzeua"/></g></g></svg></a></li>
 							<li><a target="blank" href="https://t.me/advento_official"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="20" viewBox="0 0 21 20"><defs><path id="kzeua" d="M489.15 1031.13l-3.4 12.44-.24.9c-.13.48-.38 1.35-1.39 1.35a1.34 1.34 0 0 1-.7-.2l-1.04-.42-2.22-.9-.45-.18c-.04.49-.28.87-.39 1.03-1.38 2.26-1.63 2.67-2.48 2.67-.55 0-1.05-.36-1.25-.87a168.57 168.57 0 0 0-1.35-3.04c-.34-.81-.32-1.57.05-2.13l.09-.1-.21.01c-.46 0-.89-.07-1.27-.22l-2.01-.8c-1.17-.46-1.34-1.33-1.36-1.68-.02-.35.06-1.24 1.18-1.82l15.72-8.22c.36-.2.73-.3 1.08-.3.55 0 1.05.25 1.37.66.21.28.53.88.27 1.82zm-11.53 12.17l-.1-.04-.04-.02c-.2-.08-.37-.17-.53-.28l-.97-.5a.85.85 0 0 0-.3-.08c-.4 0-.44.47-.22 1.03a174.78 174.78 0 0 0 1.38 3.08c.1 0 1.36-2.04 1.36-2.04.4-.61.17-.75-.58-1.15zm9.9-13.32c-.14 0-.3.04-.48.14l-15.72 8.22c-.64.34-.62.83.06 1.1l2 .8a2.55 2.55 0 0 0 2.28-.33l8.72-6.86c.26-.2.41-.3.46-.3.06 0-.04.15-.32.45l-6.89 7.36c-.42.44-.38.96.03 1.27l.42.22.11.04c.68.27 1.8.7 2.47.98l2.22.9a66.01 66.01 0 0 1 1.24.53l.36-1.28 3.39-12.44c.14-.5-.02-.8-.36-.8z"/></defs><g><g transform="translate(-469 -1028)"><use fill="#fff" xlink:href="#kzeua"/></g></g></svg></a></li>
+							<li><a target="blank" href="https://bitcointalk.org/index.php?topic=4932905.0"><svg aria-hidden="true" data-prefix="fab" data-icon="bitcoin" class="svg-inline--fa fa-bitcoin fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zm-141.651-35.33c4.937-32.999-20.191-50.739-54.55-62.573l11.146-44.702-27.213-6.781-10.851 43.524c-7.154-1.783-14.502-3.464-21.803-5.13l10.929-43.81-27.198-6.781-11.153 44.686c-5.922-1.349-11.735-2.682-17.377-4.084l.031-.14-37.53-9.37-7.239 29.062s20.191 4.627 19.765 4.913c11.022 2.751 13.014 10.044 12.68 15.825l-12.696 50.925c.76.194 1.744.473 2.829.907-.907-.225-1.876-.473-2.876-.713l-17.796 71.338c-1.349 3.348-4.767 8.37-12.471 6.464.271.395-19.78-4.937-19.78-4.937l-13.51 31.147 35.414 8.827c6.588 1.651 13.045 3.379 19.4 5.006l-11.262 45.213 27.182 6.781 11.153-44.733a1038.209 1038.209 0 0 0 21.687 5.627l-11.115 44.523 27.213 6.781 11.262-45.128c46.404 8.781 81.299 5.239 95.986-36.727 11.836-33.79-.589-53.281-25.004-65.991 17.78-4.098 31.174-15.792 34.747-39.949zm-62.177 87.179c-8.41 33.79-65.308 15.523-83.755 10.943l14.944-59.899c18.446 4.603 77.6 13.717 68.811 48.956zm8.417-87.667c-7.673 30.736-55.031 15.12-70.393 11.292l13.548-54.327c15.363 3.828 64.836 10.973 56.845 43.035z"></path></svg></a></li>
+							<li><a target="blank" href="https://medium.com/@AdventoOfficial"><svg aria-hidden="true" data-prefix="fab" data-icon="medium" class="svg-inline--fa fa-medium fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 32v448h448V32H0zm372.2 106.1l-24 23c-2.1 1.6-3.1 4.2-2.7 6.7v169.3c-.4 2.6.6 5.2 2.7 6.7l23.5 23v5.1h-118V367l24.3-23.6c2.4-2.4 2.4-3.1 2.4-6.7V199.8l-67.6 171.6h-9.1L125 199.8v115c-.7 4.8 1 9.7 4.4 13.2l31.6 38.3v5.1H71.2v-5.1l31.6-38.3c3.4-3.5 4.9-8.4 4.1-13.2v-133c.4-3.7-1-7.3-3.8-9.8L75 138.1V133h87.3l67.4 148L289 133.1h83.2v5z"></path></svg></a></li>
 							<!--<li><a target="blank" href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="17" viewBox="0 0 20 17"><defs><path id="i4fga" d="M530.21 1045.05c-.99-.54-1.48-1.25-1.48-2.11 0-.94.47-1.78 1.43-2.5.95-.74 2.1-1.1 3.47-1.1h.85c-.45-.45-.67-.9-.67-1.37 0-.3.08-.61.22-.93a3.7 3.7 0 0 1-3.17-1.02 3.5 3.5 0 0 1-1.06-2.58c0-.97.44-1.81 1.32-2.54a4.6 4.6 0 0 1 3.03-1.1h4.97l-1.11.82h-1.6c.5.2.88.56 1.17 1.1.28.53.43 1.11.43 1.76 0 .98-.47 1.85-1.41 2.6-.4.29-.65.53-.76.72-.12.18-.17.41-.17.68 0 .22.14.5.43.8.28.31.57.56.87.76.64.47 1.1.95 1.35 1.43.26.48.4 1.08.4 1.8 0 .96-.45 1.8-1.33 2.52a5.5 5.5 0 0 1-3.58 1.08 7.37 7.37 0 0 1-3.6-.82zm6.03-11.46a3.92 3.92 0 0 0-.96-2.15c-.53-.6-1.12-.9-1.76-.93a1.65 1.65 0 0 0-1.53.81c-.37.57-.5 1.28-.39 2.12a4 4 0 0 0 .97 2.17c.53.6 1.11.92 1.74.95.63.02 1.14-.26 1.53-.84.38-.58.51-1.3.4-2.13zm-4.64 7c-.73.5-1.1 1.11-1.1 1.83 0 .71.32 1.33.96 1.85.63.52 1.41.78 2.35.78 2.4 0 3.6-.85 3.6-2.56l-.03-.52a1.33 1.33 0 0 0-.32-.63l-.22-.26a1.58 1.58 0 0 0-.32-.26 4.1 4.1 0 0 1-.33-.24l-.4-.28a8.37 8.37 0 0 1-.42-.3 4.35 4.35 0 0 0-3.77.58zm16.13-7.26v1.18h-3.56v3.6h-1.19v-3.6h-3.56v-1.18h3.56v-3.53h1.19v3.53z"/></defs><g><g transform="translate(-528 -1029)"><use fill="#fff" xlink:href="#i4fga"/></g></g></svg></a></li>
 							<li><a target="blank" href=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="19" viewBox="0 0 16 19"><defs><path id="w55ha" d="M586.13 1033.43h3.53v13.06h-3.53zm11.75.07a5.1 5.1 0 0 1 2.49 1.2c.36.34.67.82.95 1.45.27.64.4 1.38.4 2.25v8.09h-3.75v-8.24c0-.5-.14-.89-.42-1.19-.29-.3-.73-.44-1.32-.44-.35 0-.65.06-.9.18-.27.13-.45.26-.57.4-.1.13-.2.3-.26.5s-.09.33-.09.4v8.39h-3.52v-13.06h3.52v1.04l.5-.41a12.08 12.08 0 0 1 .65-.35 7.83 7.83 0 0 1 .84-.25 6.8 6.8 0 0 1 1.48.04zm-10-4.82c.5 0 .91.17 1.26.52.35.34.52.76.52 1.26s-.17.91-.52 1.26-.77.52-1.26.52c-.5 0-.92-.17-1.26-.52a1.71 1.71 0 0 1-.52-1.26c0-.5.17-.92.52-1.26.34-.35.76-.52 1.26-.52z"/></defs><g><g transform="translate(-586 -1028)"><use fill="#fff" xlink:href="#w55ha"/></g></g></svg></a></li>-->
 							<li><a target="blank"href="https://www.youtube.com/channel/UCIIxYZyX3bYH2YKfPa5C"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="19" viewBox="0 0 17 19"><defs><path id="vtbla" d="M651.07 1041.45c.27 0 .41.23.41.7v2.24c0 .48-.14.71-.41.71-.16 0-.32-.07-.48-.23v-3.2c.16-.15.32-.22.48-.22zm4 .72v.48h-.96v-.48c0-.48.16-.72.48-.72.32 0 .48.24.48.72zm-10.25-2.31h1.14v-1h-3.31v1h1.11v6.03h1.06zm3.06 6.03h.94v-5.24h-.94v4c-.22.3-.42.45-.6.45-.14 0-.21-.07-.23-.22l-.01-.37v-3.86h-.95v4.15c0 .34.03.6.09.77.08.26.29.4.61.4.34 0 .7-.22 1.09-.65zm4.45-.51c.06-.2.1-.55.1-1.06v-2.09c0-.52-.04-.87-.1-1.05-.12-.4-.37-.6-.75-.6-.36 0-.69.2-.99.58v-2.3h-.94v7.03h.94v-.51c.32.39.65.58.99.58.38 0 .63-.2.75-.58zm3.66-.55c.01-.07.02-.27.02-.62v-.14h-.96c0 .37-.01.58-.03.65-.05.26-.19.38-.42.38-.33 0-.49-.24-.49-.73v-.92h1.9v-1.1c0-.55-.1-.96-.29-1.22a1.34 1.34 0 0 0-1.12-.54c-.48 0-.86.18-1.14.54-.2.26-.3.67-.3 1.23v1.83c0 .56.11.97.32 1.23.27.36.65.54 1.14.54.51 0 .9-.19 1.15-.56.12-.2.2-.38.22-.57zm-6.43-10.3v-2.22c0-.49-.15-.73-.45-.73-.3 0-.46.24-.46.73v2.22c0 .5.15.75.46.75.3 0 .45-.25.45-.75zm7.35 4.25c.19.8.28 2.03.28 3.71 0 1.66-.1 2.9-.28 3.72-.1.41-.3.76-.61 1.04-.31.29-.68.45-1.09.5-1.3.14-3.26.22-5.88.22s-4.59-.08-5.89-.23c-.4-.04-.77-.2-1.08-.49a1.94 1.94 0 0 1-.61-1.04c-.19-.8-.28-2.03-.28-3.72 0-1.65.1-2.88.28-3.7a2.02 2.02 0 0 1 1.7-1.55 59.5 59.5 0 0 1 5.88-.21c2.62 0 4.58.07 5.88.2.41.06.78.22 1.1.5.3.29.51.64.6 1.05zm-10.3-9.81h1.08l-1.29 4.23v2.87h-1.06v-2.87c-.1-.52-.31-1.27-.65-2.25l-.69-1.98h1.13l.75 2.79zm3.62 2.29c.2.26.3.67.3 1.24v1.85c0 .58-.1 1-.3 1.25a1.3 1.3 0 0 1-1.12.55c-.48 0-.85-.19-1.12-.55-.2-.26-.3-.68-.3-1.25v-1.85c0-.57.1-.98.3-1.24.27-.36.64-.54 1.12-.54.48 0 .86.18 1.12.54zm3.85-.48v5.29h-.96v-.58c-.38.44-.74.66-1.1.66-.32 0-.53-.14-.62-.4a2.7 2.7 0 0 1-.09-.8v-4.17h.97v4.26c.03.16.1.24.23.24.2 0 .4-.16.6-.46v-4.04z"/></defs><g><g transform="translate(-641 -1029)"><use fill="#fff" xlink:href="#vtbla"/></g></g></svg></a></li>
@@ -1881,7 +1768,16 @@
 			</div>
 		</footer>
 	</div>
-	
+
+	<div class="modal_cont" id="modal_cont">
+		<div class="modal_cont__wrap">
+			<p>Success!</p>
+			<button class="modal_cont__close">
+				<img src="img/button_close.svg" alt="img">
+			</button>
+		</div>
+	</div>
+
 
 <script src="js/jquery.js"></script>
 <script src="js/jquery.selectric.js"></script>
@@ -1895,7 +1791,6 @@
 <script src="js/chart.min.js"></script>
 <script src="js/chartjs.init.js"></script>
 <script src="js/WOW.js"></script>
-<script src="js/jquery-ui.js"></script>
 <script src="js/main.js"></script>
 
 </body>

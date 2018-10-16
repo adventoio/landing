@@ -355,12 +355,30 @@
 		position: relative;
 		z-index: 5;
 	}
+	.ui-slider{
+		position: relative;
+		text-align: left;
+	}
+	.ui-slider-range {
+		position: absolute;
+		z-index: 1;
+		font-size: .7em;
+		display: block;
+		background-position: 0 0;
+		height: 3px;
+		right: 0;
+	}
+	.ui-slider-handle{
+		position: absolute;
+		z-index: 2;
+		top: -.3em;
+		margin-left: -.6em;
+	}
 	.vertical_line{
 		position: absolute;
 	    top: -43px;
 	    left: 10px;
 	    z-index: 6;
-	    cursor: pointer;
 		div{
 			float: left;
 			position: relative;
@@ -430,7 +448,6 @@
 	border-radius: 10px !important;
 	height: 17px;
 }
-
 
 
 main{

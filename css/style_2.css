@@ -291,12 +291,30 @@
   position: relative;
   z-index: 5;
 }
+.progress_line__cont .ui-slider {
+  position: relative;
+  text-align: left;
+}
+.progress_line__cont .ui-slider-range {
+  position: absolute;
+  z-index: 1;
+  font-size: 0.7em;
+  display: block;
+  background-position: 0 0;
+  height: 3px;
+  right: 0;
+}
+.progress_line__cont .ui-slider-handle {
+  position: absolute;
+  z-index: 2;
+  top: -0.3em;
+  margin-left: -0.6em;
+}
 .progress_line__cont .vertical_line {
   position: absolute;
   top: -43px;
   left: 10px;
   z-index: 6;
-  cursor: pointer;
 }
 .progress_line__cont .vertical_line div {
   float: left;

@@ -10,6 +10,11 @@ $(document).ready(function () {
         openConfirmation();
     }
 
+    $('.animate-number').each(function () {
+        $(this).data('value', $(this).text());
+        $(this).text('0');
+    });
+
     $(".subscription-form").submit(function () { //устанавливаем событие отправки для формы с id=form
         var form_data = $(this).serialize(); //собераем все данные из формы
         $.ajax({
@@ -98,10 +103,10 @@ $(document).ready(function () {
 
     // проверка на докрутку до определенного элемента
     var scroll_picca = $('.how_it_works__list3').offset().top;
-    //если мы докрутили до нужного элемента 
-    
+    //если мы докрутили до нужного элемента
+
       if ($(this).scrollTop() > scroll_picca) {
-        
+
         $('.gorizontal_graphic').addClass('animate_class__graph');
 
         $('.vertical_graphics').addClass('vertical_graphics__active');
@@ -112,7 +117,7 @@ $(document).ready(function () {
 
 
 
-  	
+
   	// clock timer
 
   	if ($('.wrapper_rus').length) {
@@ -385,8 +390,8 @@ $(document).ready(function () {
   $(window).scroll(function() {
     // проверка на докрутку до определенного элемента
     var scroll_picca5 = $('.buy_btn').offset().top;
-    //если мы докрутили до нужного элемента 
-    
+    //если мы докрутили до нужного элемента
+
       if (($(this).scrollTop() > scroll_picca5)&&(check5 == 0)) {
           function delay(){
             $('.cl').addClass('cl--active');
@@ -402,8 +407,8 @@ $(document).ready(function () {
   $(window).scroll(function() {
     // проверка на докрутку до определенного элемента
     var scroll_picca6 = $('.vertical_graphics2').offset().top;
-    //если мы докрутили до нужного элемента 
-    
+    //если мы докрутили до нужного элемента
+
       if (($(this).scrollTop() > scroll_picca6)&&(check6 == 0)) {
         $('.advento_uses__v_images img').addClass('v_img_anim');
         check6 = 1 ;
@@ -415,8 +420,8 @@ $(document).ready(function () {
   $(window).scroll(function() {
     // проверка на докрутку до определенного элемента
     var scroll_picca7 = $('.diagramm_block').offset().top;
-    //если мы докрутили до нужного элемента 
-    
+    //если мы докрутили до нужного элемента
+
       if (($(this).scrollTop() > scroll_picca7 - 500)&&(check7 == 0)) {
         $('.dg_bg').addClass('dg_bg--active');
         check7 = 1 ;
@@ -428,8 +433,8 @@ $(document).ready(function () {
   $(window).scroll(function() {
     // проверка на докрутку до определенного элемента
     var scroll_picca8 = 200;
-    //если мы докрутили до нужного элемента 
-    
+    //если мы докрутили до нужного элемента
+
       if (($(this).scrollTop() > scroll_picca8)&&(check8 == 0)) {
         $('.about_platform__wrapper--bg').addClass('about_platform__wrapper--bg--active');
         check8 = 1 ;
@@ -441,8 +446,8 @@ $(document).ready(function () {
   $(window).scroll(function() {
     // проверка на докрутку до определенного элемента
     var scroll_picca9 = $('.roadmap_block').offset().top;
-    //если мы докрутили до нужного элемента 
-    
+    //если мы докрутили до нужного элемента
+
       if (($(this).scrollTop() > scroll_picca9 - 100)&&(check9 == 0)) {
         $('.token_sell__back').addClass('token_sell__back--active');
         check9 = 1 ;
@@ -454,8 +459,8 @@ $(document).ready(function () {
   $(window).scroll(function() {
     // проверка на докрутку до определенного элемента
     var scroll_picca10 = $('.our_comand').offset().top;
-    //если мы докрутили до нужного элемента 
-    
+    //если мы докрутили до нужного элемента
+
       if (($(this).scrollTop() > scroll_picca10 - 500)&&(check10 == 0)) {
         $('.our_comand .container_bg .comm_back').addClass('comm_back--active');
         check10 = 1 ;
@@ -467,8 +472,8 @@ $(document).ready(function () {
   $(window).scroll(function() {
     // проверка на докрутку до определенного элемента
     var scroll_picca11 = $('.our_consultant').offset().top;
-    //если мы докрутили до нужного элемента 
-    
+    //если мы докрутили до нужного элемента
+
       if (($(this).scrollTop() > scroll_picca11 - 500)&&(check11 == 0)) {
         $('.our_consultant .container_bg .comm_back').addClass('comm_back--active');
         check11 = 1 ;
@@ -480,8 +485,8 @@ $(document).ready(function () {
   $(window).scroll(function() {
     // проверка на докрутку до определенного элемента
     var scroll_picca12 = $('.part_block').offset().top;
-    //если мы докрутили до нужного элемента 
-    
+    //если мы докрутили до нужного элемента
+
       if (($(this).scrollTop() > scroll_picca12 - 500)&&(check12 == 0)) {
         $('.smi_bg').addClass('smi_bg--active');
         check12 = 1 ;
@@ -494,8 +499,8 @@ $(document).ready(function () {
   $(window).scroll(function() {
     // проверка на докрутку до определенного элемента
     var scroll_picca13 = $('.ssp_dsp__content').offset().top;
-    //если мы докрутили до нужного элемента 
-    
+    //если мы докрутили до нужного элемента
+
       if (($(this).scrollTop() > scroll_picca13 + 150)&&(check13 == 0)) {
         $('.advento_uses__v_images2 img').addClass('v_img_anim2');
         check13 = 1 ;
@@ -506,8 +511,8 @@ $(document).ready(function () {
   // scroll to elem
   $(window).scroll(function() {
     // проверка на докрутку до определенного элемента
-    //если мы докрутили до нужного элемента 
-    
+    //если мы докрутили до нужного элемента
+
       if (($(this).scrollTop() > 500)&&(check14 == 0)) {
         $('.token_sell > img').attr('src','img/after_roadmap_bg.jpg');
         check14 = 1 ;
@@ -518,9 +523,9 @@ $(document).ready(function () {
   // scroll to elem
   $(window).scroll(function() {
     // проверка на докрутку до определенного элемента
-    //если мы докрутили до нужного элемента 
+    //если мы докрутили до нужного элемента
       var scroll_picca15 = $('.advento_title__wrapper').offset().top;
-    
+
       if (($(this).scrollTop() > scroll_picca15)&&(check15 == 0)) {
         $('.v_bg_head').addClass('v_bg_head--active');
         check15 = 1 ;
@@ -536,17 +541,40 @@ $(document).ready(function () {
 $(window).scroll(function() {
   // проверка на докрутку до определенного элемента
   var scroll_picca = $('.about_platform__wrapper').offset().top;
-  //если мы докрутили до нужного элемента 
-  
+  //если мы докрутили до нужного элемента
+
     if ($(this).scrollTop() > scroll_picca - 300) {
       $('.about_platform__img').addClass('about_platform__img--active');
-
     }
+});
 
+function startAnimateNumber(selector, decimal_places) {
+    $element = $(selector);
 
-})
+    var decimal_factor = decimal_places === 0 ? 1 : Math.pow(10, decimal_places);
 
+    $element.animateNumber(
+        {
+            number: $element.data('value') * decimal_factor,
 
+            numberStep: function(now, tween) {
+                var floored_number = Math.floor(now) / decimal_factor,
+                    target = $(tween.elem);
+
+                if (decimal_places > 0) {
+                    // force decimal places even if they are 0
+                    floored_number = floored_number.toFixed(1);
+
+                    // replace '.' separator with ','
+                    floored_number = floored_number.toString().replace('.', '.');
+                }
+
+                target.text(floored_number);
+            }
+        },
+        1300
+    );
+}
 
 ///odometr///
 
@@ -555,139 +583,24 @@ var check = 0;
 $(window).scroll(function() {
   // проверка на докрутку до определенного элемента
   var scroll_picca = $('.about_platform__wrapper').offset().top;
-  //если мы докрутили до нужного элемента 
-  
+  //если мы докрутили до нужного элемента
+
     if ($(this).scrollTop() > scroll_picca) {
 
-    var decimal_places = 1;
-      var decimal_factor = decimal_places === 0 ? 1 : Math.pow(10, decimal_places);
     if (($('.about_platform_numbers__list').length)&&(check == 0)) {
-    $('.odometr')
-      .animateNumber(
-        {
-          number: 4.9 * decimal_factor,
-
-          numberStep: function(now, tween) {
-            var floored_number = Math.floor(now) / decimal_factor,
-                target = $(tween.elem);
-
-            if (decimal_places > 0) {
-              // force decimal places even if they are 0
-              floored_number = floored_number.toFixed(1);
-
-              // replace '.' separator with ','
-              floored_number = floored_number.toString().replace('.', '.');
-            }
-
-            target.text(floored_number);
-          }
-        },
-        1300
-      );
+      startAnimateNumber('.odometr', 1);
+      startAnimateNumber('.odometr1', 1);
+      startAnimateNumber('.odometr2', 1);
+      startAnimateNumber('.odometr3', 1);
+      startAnimateNumber('.odometr4', 1);
       check = 1;
-
-      $('.odometr1')
-      .animateNumber(
-        {
-          number: 5.0 * decimal_factor,
-
-          numberStep: function(now, tween) {
-            var floored_number = Math.floor(now) / decimal_factor,
-                target = $(tween.elem);
-
-            if (decimal_places > 0) {
-              // force decimal places even if they are 0
-              floored_number = floored_number.toFixed(1);
-
-              // replace '.' separator with ','
-              floored_number = floored_number.toString().replace('.', '.');
-            }
-
-            target.text(floored_number);
-          }
-        },
-        1300
-      );
-      check = 1;
-
-      $('.odometr2')
-      .animateNumber(
-        {
-          number: 9.5 * decimal_factor,
-
-          numberStep: function(now, tween) {
-            var floored_number = Math.floor(now) / decimal_factor,
-                target = $(tween.elem);
-
-            if (decimal_places > 0) {
-              // force decimal places even if they are 0
-              floored_number = floored_number.toFixed(1);
-
-              // replace '.' separator with ','
-              floored_number = floored_number.toString().replace('.', '.');
-            }
-
-            target.text(floored_number);
-          }
-        },
-        1300
-      );
-      check = 1;
-
-      $('.odometr3')
-      .animateNumber(
-        {
-          number: 4.8 * decimal_factor,
-
-          numberStep: function(now, tween) {
-            var floored_number = Math.floor(now) / decimal_factor,
-                target = $(tween.elem);
-
-            if (decimal_places > 0) {
-              // force decimal places even if they are 0
-              floored_number = floored_number.toFixed(1);
-
-              // replace '.' separator with ','
-              floored_number = floored_number.toString().replace('.', '.');
-            }
-
-            target.text(floored_number);
-          }
-        },
-        1300
-      );
-      check = 1;
-
-      $('.odometr4')
-      .animateNumber(
-        {
-          number: 9.4 * decimal_factor,
-
-          numberStep: function(now, tween) {
-            var floored_number = Math.floor(now) / decimal_factor,
-                target = $(tween.elem);
-
-            if (decimal_places > 0) {
-              // force decimal places even if they are 0
-              floored_number = floored_number.toFixed(1);
-
-              // replace '.' separator with ','
-              floored_number = floored_number.toString().replace('.', '.');
-            }
-
-            target.text(floored_number);
-          }
-        },
-        1300
-      );
-      check = 1;
-    } 
+    }
   }
 
-  
+
 
   if (($(window).width() < 1200) > 0) {
-      
+
       $('.security_content--right, .security_logo').appendTo('.security_content--left__block');
 
   }
@@ -695,9 +608,9 @@ $(window).scroll(function() {
 });
 
 $(window).resize(function() {
-    
+
   if (($(window).width() < 1200) > 0) {
-      
+
       $('.security_content--right, .security_logo').appendTo('.security_content--left__block');
 
   }
@@ -709,228 +622,36 @@ var check20 = 0;
 
 $(window).scroll(function(){
 
-  
+
 
     var scroll_picca2 = $('.token_sell').offset().top;
 
-    
-  //если мы докрутили до нужного элемента 
-  
+
+  //если мы докрутили до нужного элемента
+
     if ($(this).scrollTop() > scroll_picca2 - 200) {
 
-      var decimal_places2 = 1;
-
-        var decimal_factor2 = decimal_places2 === 0 ? 1 : Math.pow(10, decimal_places2);
-        
           if (($('.token_sell__ul').length)&&(check2 == 0)) {
-          $('.percent1 i')
-            .animateNumber(
-              {
-                number: 35 * decimal_factor2,
-
-                numberStep: function(now, tween) {
-                  var floored_number2 = Math.floor(now) / decimal_factor2,
-                      target = $(tween.elem);
-
-                  if (decimal_places2 > 0) {
-                    // force decimal places even if they are 0
-                    floored_number2 = floored_number2.toFixed(0);
-
-                    // replace '.' separator with ','
-                    floored_number2 = floored_number2.toString().replace('.', '.');
-                  }
-
-                  target.text(floored_number2);
-                }
-              },
-              1300
-            );
-            check2 = 1;
-
-            $('.percent2 i')
-            .animateNumber(
-              {
-                number: 25 * decimal_factor2,
-
-                numberStep: function(now, tween) {
-                  var floored_number2 = Math.floor(now) / decimal_factor2,
-                      target = $(tween.elem);
-
-                  if (decimal_places2 > 0) {
-                    // force decimal places even if they are 0
-                    floored_number2 = floored_number2.toFixed(0);
-
-                    // replace '.' separator with ','
-                    floored_number2 = floored_number2.toString().replace('.', '.');
-                  }
-
-                  target.text(floored_number2);
-                }
-              },
-              1300
-            );
-            check2 = 1;
-
-            $('.percent3 i')
-            .animateNumber(
-              {
-                number: 35 * decimal_factor2,
-
-                numberStep: function(now, tween) {
-                  var floored_number2 = Math.floor(now) / decimal_factor2,
-                      target = $(tween.elem);
-
-                  if (decimal_places2 > 0) {
-                    // force decimal places even if they are 0
-                    floored_number2 = floored_number2.toFixed(0);
-
-                    // replace '.' separator with ','
-                    floored_number2 = floored_number2.toString().replace('.', '.');
-                  }
-
-                  target.text(floored_number2);
-                }
-              },
-              1300
-            );
-            check2 = 1;
-          } 
+              startAnimateNumber('.percent1 i', 1);
+              startAnimateNumber('.percent2 i', 1);
+              startAnimateNumber('.percent3 i', 1);
+              check2 = 1;
+          }
     }
 
     var scroll_picca10 = $('.contain_market__wrapper').offset().top;
 
     if ($(this).scrollTop() > scroll_picca10 - 200) {
-
-      var decimal_places3 = 1;
-
-        var decimal_factor3 = decimal_places3 === 0 ? 1 : Math.pow(10, decimal_places3);
-        
           if (($('.contain_market__wrapper--top').length)&&(check20 == 0)) {
-          $('.pers1_cont')
-            .animateNumber(
-              {
-                number: 47 * decimal_factor3,
-
-                numberStep: function(now, tween) {
-                  var floored_number2 = Math.floor(now) / decimal_factor3,
-                      target = $(tween.elem);
-
-                  if (decimal_places3 > 0) {
-                    // force decimal places even if they are 0
-                    floored_number2 = floored_number2.toFixed(0);
-
-                    // replace '.' separator with ','
-                    floored_number2 = floored_number2.toString().replace('.', '.');
-                  }
-
-                  target.text(floored_number2);
-                }
-              },
-              1300
-            );
-            check20 = 1;
-
-            $('.pers2_cont')
-            .animateNumber(
-              {
-                number: 36 * decimal_factor3,
-
-                numberStep: function(now, tween) {
-                  var floored_number2 = Math.floor(now) / decimal_factor3,
-                      target = $(tween.elem);
-
-                  if (decimal_places3 > 0) {
-                    // force decimal places even if they are 0
-                    floored_number2 = floored_number2.toFixed(0);
-
-                    // replace '.' separator with ','
-                    floored_number2 = floored_number2.toString().replace('.', '.');
-                  }
-
-                  target.text(floored_number2);
-                }
-              },
-              1300
-            );
-            check20 = 1;
-
-            $('.pers3_cont')
-            .animateNumber(
-              {
-                number: 87000 * decimal_factor3,
-
-                numberStep: function(now, tween) {
-                  var floored_number2 = Math.floor(now) / decimal_factor3,
-                      target = $(tween.elem);
-
-                  if (decimal_places3 > 0) {
-                    // force decimal places even if they are 0
-                    floored_number2 = floored_number2.toFixed(0);
-
-                    // replace '.' separator with ','
-                    floored_number2 = floored_number2.toString().replace('.', '.');
-                  }
-
-                  target.text(floored_number2);
-                }
-              },
-              1300
-            );
-            check20 = 1;
-           
-
-          $('.pers4_cont')
-            .animateNumber(
-              {
-                number: 266 * decimal_factor3,
-
-                numberStep: function(now, tween) {
-                  var floored_number2 = Math.floor(now) / decimal_factor3,
-                      target = $(tween.elem);
-
-                  if (decimal_places3 > 0) {
-                    // force decimal places even if they are 0
-                    floored_number2 = floored_number2.toFixed(0);
-
-                    // replace '.' separator with ','
-                    floored_number2 = floored_number2.toString().replace('.', '.');
-                  }
-
-                  target.text(floored_number2);
-                }
-              },
-              1300
-            );
-            check20 = 1;
-           
-
-          $('.pers5_cont')
-            .animateNumber(
-              {
-                number: 400 * decimal_factor3,
-
-                numberStep: function(now, tween) {
-                  var floored_number2 = Math.floor(now) / decimal_factor3,
-                      target = $(tween.elem);
-
-                  if (decimal_places3 > 0) {
-                    // force decimal places even if they are 0
-                    floored_number2 = floored_number2.toFixed(0);
-
-                    // replace '.' separator with ','
-                    floored_number2 = floored_number2.toString().replace('.', '.');
-                  }
-
-                  target.text(floored_number2);
-                }
-              },
-              1300
-            );
-            check20 = 1;
-          } 
+              check20 = 1;
+              startAnimateNumber('.pers1_cont', 0);
+              startAnimateNumber('.pers2_cont', 0);
+              startAnimateNumber('.pers3_cont', 0);
+              startAnimateNumber('.pers4_cont', 0);
+              startAnimateNumber('.pers5_cont', 0);
+              startAnimateNumber('.pers6_cont', 0);
+          }
     }
-
-
 });
 
 
